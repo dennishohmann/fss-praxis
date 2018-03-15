@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use Psr\Log\LoggerInterface;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
@@ -25,7 +26,7 @@ class ArticleController extends AbstractController
             'Woohoo! I\'m going on an all-asteroid diet!',
             'I like bacon too! Buy some from my site! bakinsomebacon.com',
         ];
-
+        
         return $this->render('article/index.html.twig', [
             'title' => ucwords(str_replace('-', ' ', $slug)),
             'slug' => $slug,
@@ -33,13 +34,16 @@ class ArticleController extends AbstractController
         ]);
     }
     
+    
     /**
-     * @Route("/article/{slug}", name="article")
+     * @Route("/news/{slug}/heart", name="article_toggle_heart", methods={"POST"})
      */
-    public function index($slug)
+    public function toggleArticleHeart($slug, LoggerInterface $logger)
     {
-        return $this->render('article/index.html.twig', [
-            'controller_name' => $slug,
-        ]);
+        //TODO - actually heart/unheart the article
+        
+        $logger->info('Article is being hearted');
+        
+        return $this->json(['hearts' => rand(5,100)]);
     }
 }
