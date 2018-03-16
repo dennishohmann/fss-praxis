@@ -1,0 +1,8 @@
+easy_admin:
+    entities:
+        Sus:
+            class: App\Entity\Sus
+        # List the entity class name you want to manage
+#        - 
+#        - App\Entity\Category
+#        - App\Entity\User
