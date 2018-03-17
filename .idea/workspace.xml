@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f7599651-0d95-4088-be70-25da6a1cbb0a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controller/SusController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/article/sus.html.twig" />
+      <change beforePath="$PROJECT_DIR$/.env.dist" afterPath="$PROJECT_DIR$/.env.dist" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/assets/.gitignore" afterPath="$PROJECT_DIR$/assets/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/bin/console" afterPath="$PROJECT_DIR$/bin/console" />
+      <change beforePath="$PROJECT_DIR$/bin/phpunit" afterPath="$PROJECT_DIR$/bin/phpunit" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/README.md" afterPath="$PROJECT_DIR$/code-symfony/README.md" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/.env.dist" afterPath="$PROJECT_DIR$/code-symfony/finish/.env.dist" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/.gitignore" afterPath="$PROJECT_DIR$/code-symfony/finish/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/LICENSE" afterPath="$PROJECT_DIR$/code-symfony/finish/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/README.md" afterPath="$PROJECT_DIR$/code-symfony/finish/README.md" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/bin/console" afterPath="$PROJECT_DIR$/code-symfony/finish/bin/console" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/bin/phpunit" afterPath="$PROJECT_DIR$/code-symfony/finish/bin/phpunit" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/composer.json" afterPath="$PROJECT_DIR$/code-symfony/finish/composer.json" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/composer.lock" afterPath="$PROJECT_DIR$/code-symfony/finish/composer.lock" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/bundles.php" afterPath="$PROJECT_DIR$/code-symfony/finish/config/bundles.php" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/easy_log_handler.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/easy_log_handler.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/monolog.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/monolog.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/routing.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/routing.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/security_checker.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/security_checker.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/web_profiler.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/web_profiler.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/framework.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/framework.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/prod/monolog.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/prod/monolog.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/routing.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/routing.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/test/framework.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/test/framework.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/test/monolog.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/test/monolog.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/test/web_profiler.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/test/web_profiler.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/twig.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/twig.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/routes.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/routes.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/routes/annotations.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/routes/annotations.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/routes/dev/twig.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/routes/dev/twig.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/routes/dev/web_profiler.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/routes/dev/web_profiler.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/services.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/services.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/services_test.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/services_test.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/phpunit.xml.dist" afterPath="$PROJECT_DIR$/code-symfony/finish/phpunit.xml.dist" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/css/font-awesome.css" afterPath="$PROJECT_DIR$/code-symfony/finish/public/css/font-awesome.css" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/css/styles.css" afterPath="$PROJECT_DIR$/code-symfony/finish/public/css/styles.css" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/code-symfony/finish/public/fonts/FontAwesome.otf" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.eot" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.svg" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.woff" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/alien-profile.png" afterPath="$PROJECT_DIR$/code-symfony/finish/public/images/alien-profile.png" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/asteroid.jpeg" afterPath="$PROJECT_DIR$/code-symfony/finish/public/images/asteroid.jpeg" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/astronaut-profile.png" afterPath="$PROJECT_DIR$/code-symfony/finish/public/images/astronaut-profile.png" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/lightspeed.png" afterPath="$PROJECT_DIR$/code-symfony/finish/public/images/lightspeed.png" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/mercury.jpeg" afterPath="$PROJECT_DIR$/code-symfony/finish/public/images/mercury.jpeg" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/meteor-shower.jpg" afterPath="$PROJECT_DIR$/code-symfony/finish/public/images/meteor-shower.jpg" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/space-ice.png" afterPath="$PROJECT_DIR$/code-symfony/finish/public/images/space-ice.png" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/space-nav.jpg" afterPath="$PROJECT_DIR$/code-symfony/finish/public/images/space-nav.jpg" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/index.php" afterPath="$PROJECT_DIR$/code-symfony/finish/public/index.php" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/js/article_show.js" afterPath="$PROJECT_DIR$/code-symfony/finish/public/js/article_show.js" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/src/Controller/.gitignore" afterPath="$PROJECT_DIR$/code-symfony/finish/src/Controller/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/src/Controller/ArticleController.php" afterPath="$PROJECT_DIR$/code-symfony/finish/src/Controller/ArticleController.php" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/src/Kernel.php" afterPath="$PROJECT_DIR$/code-symfony/finish/src/Kernel.php" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/symfony.lock" afterPath="$PROJECT_DIR$/code-symfony/finish/symfony.lock" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/templates/article/homepage.html.twig" afterPath="$PROJECT_DIR$/code-symfony/finish/templates/article/homepage.html.twig" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/templates/article/show.html.twig" afterPath="$PROJECT_DIR$/code-symfony/finish/templates/article/show.html.twig" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/templates/base.html.twig" afterPath="$PROJECT_DIR$/code-symfony/finish/templates/base.html.twig" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tests/.gitignore" afterPath="$PROJECT_DIR$/code-symfony/finish/tests/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/css/font-awesome.css" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/css/font-awesome.css" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/css/styles.css" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/css/styles.css" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/FontAwesome.otf" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.eot" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.svg" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.woff" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/alien-profile.png" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/alien-profile.png" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/asteroid.jpeg" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/asteroid.jpeg" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/astronaut-profile.png" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/astronaut-profile.png" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/lightspeed.png" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/lightspeed.png" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/mercury.jpeg" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/mercury.jpeg" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/meteor-shower.jpg" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/meteor-shower.jpg" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/space-ice.png" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/space-ice.png" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/space-nav.jpg" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/space-nav.jpg" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/templates/article.html.twig" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/templates/article.html.twig" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/templates/base.html.twig" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/templates/base.html.twig" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/templates/homepage.html.twig" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/templates/homepage.html.twig" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/.env.dist" afterPath="$PROJECT_DIR$/code-symfony/start/.env.dist" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/.gitignore" afterPath="$PROJECT_DIR$/code-symfony/start/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/LICENSE" afterPath="$PROJECT_DIR$/code-symfony/start/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/README.md" afterPath="$PROJECT_DIR$/code-symfony/start/README.md" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/bin/console" afterPath="$PROJECT_DIR$/code-symfony/start/bin/console" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/composer.json" afterPath="$PROJECT_DIR$/code-symfony/start/composer.json" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/composer.lock" afterPath="$PROJECT_DIR$/code-symfony/start/composer.lock" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/config/bundles.php" afterPath="$PROJECT_DIR$/code-symfony/start/config/bundles.php" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/config/packages/dev/routing.yaml" afterPath="$PROJECT_DIR$/code-symfony/start/config/packages/dev/routing.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/config/packages/framework.yaml" afterPath="$PROJECT_DIR$/code-symfony/start/config/packages/framework.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/config/packages/routing.yaml" afterPath="$PROJECT_DIR$/code-symfony/start/config/packages/routing.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/config/packages/test/framework.yaml" afterPath="$PROJECT_DIR$/code-symfony/start/config/packages/test/framework.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/config/routes.yaml" afterPath="$PROJECT_DIR$/code-symfony/start/config/routes.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/config/services.yaml" afterPath="$PROJECT_DIR$/code-symfony/start/config/services.yaml" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/public/index.php" afterPath="$PROJECT_DIR$/code-symfony/start/public/index.php" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/src/Controller/.gitignore" afterPath="$PROJECT_DIR$/code-symfony/start/src/Controller/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/src/Kernel.php" afterPath="$PROJECT_DIR$/code-symfony/start/src/Kernel.php" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/symfony.lock" afterPath="$PROJECT_DIR$/code-symfony/start/symfony.lock" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/css/font-awesome.css" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/css/font-awesome.css" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/css/styles.css" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/css/styles.css" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/FontAwesome.otf" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.eot" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.svg" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.woff" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/alien-profile.png" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/images/alien-profile.png" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/asteroid.jpeg" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/images/asteroid.jpeg" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/astronaut-profile.png" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/images/astronaut-profile.png" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/lightspeed.png" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/images/lightspeed.png" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/mercury.jpeg" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/images/mercury.jpeg" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/meteor-shower.jpg" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/images/meteor-shower.jpg" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/space-ice.png" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/images/space-ice.png" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/space-nav.jpg" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/images/space-nav.jpg" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/templates/article.html.twig" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/templates/article.html.twig" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/templates/base.html.twig" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/templates/base.html.twig" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/templates/homepage.html.twig" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/templates/homepage.html.twig" />
+      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" afterPath="$PROJECT_DIR$/config/bundles.php" />
+      <change beforePath="$PROJECT_DIR$/config/packages/dev/easy_log_handler.yaml" afterPath="$PROJECT_DIR$/config/packages/dev/easy_log_handler.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/packages/dev/monolog.yaml" afterPath="$PROJECT_DIR$/config/packages/dev/monolog.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/packages/dev/routing.yaml" afterPath="$PROJECT_DIR$/config/packages/dev/routing.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/packages/dev/swiftmailer.yaml" afterPath="$PROJECT_DIR$/config/packages/dev/swiftmailer.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" afterPath="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/packages/easy_admin.yaml" afterPath="$PROJECT_DIR$/config/packages/easy_admin.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" afterPath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" afterPath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/packages/routing.yaml" afterPath="$PROJECT_DIR$/config/packages/routing.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" afterPath="$PROJECT_DIR$/config/packages/security.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/packages/swiftmailer.yaml" afterPath="$PROJECT_DIR$/config/packages/swiftmailer.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/packages/test/framework.yaml" afterPath="$PROJECT_DIR$/config/packages/test/framework.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/packages/test/monolog.yaml" afterPath="$PROJECT_DIR$/config/packages/test/monolog.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/packages/test/swiftmailer.yaml" afterPath="$PROJECT_DIR$/config/packages/test/swiftmailer.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/packages/test/web_profiler.yaml" afterPath="$PROJECT_DIR$/config/packages/test/web_profiler.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/packages/translation.yaml" afterPath="$PROJECT_DIR$/config/packages/translation.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/packages/twig_extensions.yaml" afterPath="$PROJECT_DIR$/config/packages/twig_extensions.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" afterPath="$PROJECT_DIR$/config/routes.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/routes/annotations.yaml" afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/routes/dev/twig.yaml" afterPath="$PROJECT_DIR$/config/routes/dev/twig.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/routes/dev/web_profiler.yaml" afterPath="$PROJECT_DIR$/config/routes/dev/web_profiler.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/routes/easy_admin.yaml" afterPath="$PROJECT_DIR$/config/routes/easy_admin.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" afterPath="$PROJECT_DIR$/config/services.yaml" />
+      <change beforePath="$PROJECT_DIR$/config/services_test.yaml" afterPath="$PROJECT_DIR$/config/services_test.yaml" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml.dist" afterPath="$PROJECT_DIR$/phpunit.xml.dist" />
+      <change beforePath="$PROJECT_DIR$/public/css/font-awesome.css" afterPath="$PROJECT_DIR$/public/css/font-awesome.css" />
+      <change beforePath="$PROJECT_DIR$/public/css/styles.css" afterPath="$PROJECT_DIR$/public/css/styles.css" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="$PROJECT_DIR$/public/images/alien-profile.png" afterPath="$PROJECT_DIR$/public/images/alien-profile.png" />
+      <change beforePath="$PROJECT_DIR$/public/images/asteroid.jpeg" afterPath="$PROJECT_DIR$/public/images/asteroid.jpeg" />
+      <change beforePath="$PROJECT_DIR$/public/images/astronaut-profile.png" afterPath="$PROJECT_DIR$/public/images/astronaut-profile.png" />
+      <change beforePath="$PROJECT_DIR$/public/images/lightspeed.png" afterPath="$PROJECT_DIR$/public/images/lightspeed.png" />
+      <change beforePath="$PROJECT_DIR$/public/images/mercury.jpeg" afterPath="$PROJECT_DIR$/public/images/mercury.jpeg" />
+      <change beforePath="$PROJECT_DIR$/public/images/meteor-shower.jpg" afterPath="$PROJECT_DIR$/public/images/meteor-shower.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/space-ice.png" afterPath="$PROJECT_DIR$/public/images/space-ice.png" />
+      <change beforePath="$PROJECT_DIR$/public/images/space-nav.jpg" afterPath="$PROJECT_DIR$/public/images/space-nav.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change beforePath="$PROJECT_DIR$/public/js/article_show.js" afterPath="$PROJECT_DIR$/public/js/article_show.js" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/.gitignore" afterPath="$PROJECT_DIR$/src/Controller/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/.gitignore" afterPath="$PROJECT_DIR$/src/Entity/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Sus.php" afterPath="$PROJECT_DIR$/src/Entity/Sus.php" />
+      <change beforePath="$PROJECT_DIR$/src/Kernel.php" afterPath="$PROJECT_DIR$/src/Kernel.php" />
+      <change beforePath="$PROJECT_DIR$/src/Migrations/.gitignore" afterPath="$PROJECT_DIR$/src/Migrations/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20180315234630.php" afterPath="$PROJECT_DIR$/src/Migrations/Version20180315234630.php" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/.gitignore" afterPath="$PROJECT_DIR$/src/Repository/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/SusRepository.php" afterPath="$PROJECT_DIR$/src/Repository/SusRepository.php" />
+      <change beforePath="$PROJECT_DIR$/src/Service/MarkdownHelper.php" afterPath="$PROJECT_DIR$/src/Service/MarkdownHelper.php" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" afterPath="$PROJECT_DIR$/symfony.lock" />
+      <change beforePath="$PROJECT_DIR$/templates/article/homepage.html.twig" afterPath="$PROJECT_DIR$/templates/article/homepage.html.twig" />
+      <change beforePath="$PROJECT_DIR$/templates/article/index.html.twig" afterPath="$PROJECT_DIR$/templates/article/index.html.twig" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" afterPath="$PROJECT_DIR$/templates/base.html.twig" />
+      <change beforePath="$PROJECT_DIR$/tests/.gitignore" afterPath="$PROJECT_DIR$/tests/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/translations/.gitignore" afterPath="$PROJECT_DIR$/translations/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="fss-praxis@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="fss-praxis@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="fss-praxis@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="fss-praxis: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="fss-praxis@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="fss-praxis: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="sus: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="fss-praxis" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Sus.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/Sus.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SusController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Controller/SusController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+              <folding>
+                <element signature="e#34#53#0#PHP" expanded="true" />
+                <element signature="e#360#369#1#PHP" expanded="true" />
+                <element signature="e#413#436#0#PHP" expanded="true" />
+                <element signature="e#885#895#1#PHP" expanded="true" />
+                <element signature="e#1147#1156#1#PHP" expanded="true" />
+                <element signature="e#1431#1441#1#PHP" expanded="true" />
+                <element signature="e#1647#1656#1#PHP" expanded="true" />
+                <element signature="e#1898#1908#1#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sus.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/article/sus.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="30" column="57" lean-forward="false" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/article/sus.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/SusController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/orm-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/easycorp/easy-log-handler" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/pagerfanta/pagerfanta" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/easycorp/easyadmin-bundle" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-markdown-bundle" />
+      <path value="$PROJECT_DIR$/vendor/michelf/php-markdown" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/profiler-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/twig/extensions" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1087" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fss-praxis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fss-praxis" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="fss-praxis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fss-praxis" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="fss-praxis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fss-praxis" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="fss-praxis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fss-praxis" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="fss-praxis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fss-praxis" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="fss-praxis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fss-praxis" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="article" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="settings.editor.selected.configurable" value="Symfony.ProfilerSettingsForm" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\denni\code\fss-praxis\templates\article" />
+      <recent name="C:\Users\denni\code\fss-praxis\src\Controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="windows-1252" />
+    <option name="myConnectionType" value="CURRENT_VAGRANT" />
+    <option name="myConnectionId" value="" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7599651-0d95-4088-be70-25da6a1cbb0a" name="Default" comment="" />
+      <created>1521295437235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521295437235</updated>
+      <workItem from="1521295439224" duration="2785000" />
+      <workItem from="1521298327173" duration="472000" />
+      <workItem from="1521298815963" duration="7351000" />
+    </task>
+    <servers>
+      <GitHub shared="false" url="https://github.com">
+        <option name="assignedIssuesOnly" value="false" />
+        <commitMessageFormat>{id} {summary}</commitMessageFormat>
+        <password />
+        <token>dfc9df9fdfcfdf9bdf9bdf99dfcedf9fdf9bdfcedfcedf92dfcfdf9adf99df9cdf92dfc9df9bdfc8dfc8df9cdf9ddfcfdf9edf9fdf9cdf93df9cdf9fdf98df9bdfc8df9adf93df9ddf9adf92dfcedf99</token>
+        <option name="loginAnonymously" value="false" />
+        <option name="preferredCloseTaskState" />
+        <option name="preferredOpenTaskState" />
+        <option name="repoAuthor" value="dennishohmann" />
+        <option name="repoName" value="fss-praxis" />
+        <option name="shouldFormatCommitMessage" value="false" />
+        <option name="useHttpAuthentication" value="false" />
+        <option name="useProxy" value="false" />
+        <option name="user" value="" />
+        <username />
+      </GitHub>
+    </servers>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="enabled" value="true" />
+    <option name="totallyTimeSpent" value="10608000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18443497" sideWeight="0.50416666" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23020834" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18869936" sideWeight="0.49583334" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15245202" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Time Tracking" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18443497" sideWeight="0.50416666" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1eeed2c5-6e17-45a4-b8ec-f602ac40446f/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/dev/easy_log_handler.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/594ec60c/1eeed2c5-6e17-45a4-b8ec-f602ac40446f/fss-praxis.sus">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/594ec60c/1eeed2c5-6e17-45a4-b8ec-f602ac40446f/fss-praxis.sus">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Sus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/article/sus.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" column="57" lean-forward="false" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/SusController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding>
+            <element signature="e#34#53#0#PHP" expanded="true" />
+            <element signature="e#360#369#1#PHP" expanded="true" />
+            <element signature="e#413#436#0#PHP" expanded="true" />
+            <element signature="e#885#895#1#PHP" expanded="true" />
+            <element signature="e#1147#1156#1#PHP" expanded="true" />
+            <element signature="e#1431#1441#1#PHP" expanded="true" />
+            <element signature="e#1647#1656#1#PHP" expanded="true" />
+            <element signature="e#1898#1908#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
