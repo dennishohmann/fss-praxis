@@ -1,127 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7599651-0d95-4088-be70-25da6a1cbb0a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controller/SusController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/article/sus.html.twig" />
+    <list default="true" id="f7599651-0d95-4088-be70-25da6a1cbb0a" name="Default" comment="PhpStorm-wechsel und code-symfony entfernt">
       <change beforePath="$PROJECT_DIR$/.env.dist" afterPath="$PROJECT_DIR$/.env.dist" />
       <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1eeed2c5-6e17-45a4-b8ec-f602ac40446f.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/1eeed2c5-6e17-45a4-b8ec-f602ac40446f.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/fss-praxis.iml" afterPath="$PROJECT_DIR$/.idea/fss-praxis.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vagrant.xml" afterPath="$PROJECT_DIR$/.idea/vagrant.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change beforePath="$PROJECT_DIR$/assets/.gitignore" afterPath="$PROJECT_DIR$/assets/.gitignore" />
       <change beforePath="$PROJECT_DIR$/bin/console" afterPath="$PROJECT_DIR$/bin/console" />
       <change beforePath="$PROJECT_DIR$/bin/phpunit" afterPath="$PROJECT_DIR$/bin/phpunit" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/README.md" afterPath="$PROJECT_DIR$/code-symfony/README.md" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/.env.dist" afterPath="$PROJECT_DIR$/code-symfony/finish/.env.dist" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/.gitignore" afterPath="$PROJECT_DIR$/code-symfony/finish/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/LICENSE" afterPath="$PROJECT_DIR$/code-symfony/finish/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/README.md" afterPath="$PROJECT_DIR$/code-symfony/finish/README.md" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/bin/console" afterPath="$PROJECT_DIR$/code-symfony/finish/bin/console" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/bin/phpunit" afterPath="$PROJECT_DIR$/code-symfony/finish/bin/phpunit" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/composer.json" afterPath="$PROJECT_DIR$/code-symfony/finish/composer.json" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/composer.lock" afterPath="$PROJECT_DIR$/code-symfony/finish/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/bundles.php" afterPath="$PROJECT_DIR$/code-symfony/finish/config/bundles.php" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/easy_log_handler.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/easy_log_handler.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/monolog.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/monolog.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/routing.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/routing.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/security_checker.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/security_checker.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/web_profiler.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/web_profiler.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/framework.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/framework.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/prod/monolog.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/prod/monolog.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/routing.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/routing.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/test/framework.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/test/framework.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/test/monolog.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/test/monolog.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/test/web_profiler.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/test/web_profiler.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/twig.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/packages/twig.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/routes.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/routes.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/routes/annotations.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/routes/annotations.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/routes/dev/twig.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/routes/dev/twig.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/routes/dev/web_profiler.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/routes/dev/web_profiler.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/services.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/services.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/services_test.yaml" afterPath="$PROJECT_DIR$/code-symfony/finish/config/services_test.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/phpunit.xml.dist" afterPath="$PROJECT_DIR$/code-symfony/finish/phpunit.xml.dist" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/css/font-awesome.css" afterPath="$PROJECT_DIR$/code-symfony/finish/public/css/font-awesome.css" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/css/styles.css" afterPath="$PROJECT_DIR$/code-symfony/finish/public/css/styles.css" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/code-symfony/finish/public/fonts/FontAwesome.otf" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.eot" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.svg" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.woff" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/alien-profile.png" afterPath="$PROJECT_DIR$/code-symfony/finish/public/images/alien-profile.png" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/asteroid.jpeg" afterPath="$PROJECT_DIR$/code-symfony/finish/public/images/asteroid.jpeg" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/astronaut-profile.png" afterPath="$PROJECT_DIR$/code-symfony/finish/public/images/astronaut-profile.png" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/lightspeed.png" afterPath="$PROJECT_DIR$/code-symfony/finish/public/images/lightspeed.png" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/mercury.jpeg" afterPath="$PROJECT_DIR$/code-symfony/finish/public/images/mercury.jpeg" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/meteor-shower.jpg" afterPath="$PROJECT_DIR$/code-symfony/finish/public/images/meteor-shower.jpg" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/space-ice.png" afterPath="$PROJECT_DIR$/code-symfony/finish/public/images/space-ice.png" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/space-nav.jpg" afterPath="$PROJECT_DIR$/code-symfony/finish/public/images/space-nav.jpg" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/index.php" afterPath="$PROJECT_DIR$/code-symfony/finish/public/index.php" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/js/article_show.js" afterPath="$PROJECT_DIR$/code-symfony/finish/public/js/article_show.js" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/src/Controller/.gitignore" afterPath="$PROJECT_DIR$/code-symfony/finish/src/Controller/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/src/Controller/ArticleController.php" afterPath="$PROJECT_DIR$/code-symfony/finish/src/Controller/ArticleController.php" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/src/Kernel.php" afterPath="$PROJECT_DIR$/code-symfony/finish/src/Kernel.php" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/symfony.lock" afterPath="$PROJECT_DIR$/code-symfony/finish/symfony.lock" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/templates/article/homepage.html.twig" afterPath="$PROJECT_DIR$/code-symfony/finish/templates/article/homepage.html.twig" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/templates/article/show.html.twig" afterPath="$PROJECT_DIR$/code-symfony/finish/templates/article/show.html.twig" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/templates/base.html.twig" afterPath="$PROJECT_DIR$/code-symfony/finish/templates/base.html.twig" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tests/.gitignore" afterPath="$PROJECT_DIR$/code-symfony/finish/tests/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/css/font-awesome.css" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/css/font-awesome.css" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/css/styles.css" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/css/styles.css" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/FontAwesome.otf" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.eot" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.svg" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.woff" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/alien-profile.png" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/alien-profile.png" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/asteroid.jpeg" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/asteroid.jpeg" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/astronaut-profile.png" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/astronaut-profile.png" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/lightspeed.png" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/lightspeed.png" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/mercury.jpeg" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/mercury.jpeg" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/meteor-shower.jpg" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/meteor-shower.jpg" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/space-ice.png" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/space-ice.png" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/space-nav.jpg" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/space-nav.jpg" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/templates/article.html.twig" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/templates/article.html.twig" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/templates/base.html.twig" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/templates/base.html.twig" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/templates/homepage.html.twig" afterPath="$PROJECT_DIR$/code-symfony/finish/tutorial/templates/homepage.html.twig" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/.env.dist" afterPath="$PROJECT_DIR$/code-symfony/start/.env.dist" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/.gitignore" afterPath="$PROJECT_DIR$/code-symfony/start/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/LICENSE" afterPath="$PROJECT_DIR$/code-symfony/start/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/README.md" afterPath="$PROJECT_DIR$/code-symfony/start/README.md" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/bin/console" afterPath="$PROJECT_DIR$/code-symfony/start/bin/console" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/composer.json" afterPath="$PROJECT_DIR$/code-symfony/start/composer.json" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/composer.lock" afterPath="$PROJECT_DIR$/code-symfony/start/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/config/bundles.php" afterPath="$PROJECT_DIR$/code-symfony/start/config/bundles.php" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/config/packages/dev/routing.yaml" afterPath="$PROJECT_DIR$/code-symfony/start/config/packages/dev/routing.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/config/packages/framework.yaml" afterPath="$PROJECT_DIR$/code-symfony/start/config/packages/framework.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/config/packages/routing.yaml" afterPath="$PROJECT_DIR$/code-symfony/start/config/packages/routing.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/config/packages/test/framework.yaml" afterPath="$PROJECT_DIR$/code-symfony/start/config/packages/test/framework.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/config/routes.yaml" afterPath="$PROJECT_DIR$/code-symfony/start/config/routes.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/config/services.yaml" afterPath="$PROJECT_DIR$/code-symfony/start/config/services.yaml" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/public/index.php" afterPath="$PROJECT_DIR$/code-symfony/start/public/index.php" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/src/Controller/.gitignore" afterPath="$PROJECT_DIR$/code-symfony/start/src/Controller/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/src/Kernel.php" afterPath="$PROJECT_DIR$/code-symfony/start/src/Kernel.php" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/symfony.lock" afterPath="$PROJECT_DIR$/code-symfony/start/symfony.lock" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/css/font-awesome.css" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/css/font-awesome.css" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/css/styles.css" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/css/styles.css" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/FontAwesome.otf" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.eot" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.svg" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.woff" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/alien-profile.png" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/images/alien-profile.png" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/asteroid.jpeg" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/images/asteroid.jpeg" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/astronaut-profile.png" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/images/astronaut-profile.png" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/lightspeed.png" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/images/lightspeed.png" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/mercury.jpeg" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/images/mercury.jpeg" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/meteor-shower.jpg" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/images/meteor-shower.jpg" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/space-ice.png" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/images/space-ice.png" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/space-nav.jpg" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/images/space-nav.jpg" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/templates/article.html.twig" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/templates/article.html.twig" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/templates/base.html.twig" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/templates/base.html.twig" />
-      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/templates/homepage.html.twig" afterPath="$PROJECT_DIR$/code-symfony/start/tutorial/templates/homepage.html.twig" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/.env.dist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/bin/console" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/bin/phpunit" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/composer.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/composer.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/bundles.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/easy_log_handler.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/monolog.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/routing.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/security_checker.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/dev/web_profiler.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/framework.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/prod/monolog.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/routing.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/test/framework.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/test/monolog.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/test/web_profiler.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/packages/twig.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/routes.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/routes/annotations.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/routes/dev/twig.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/routes/dev/web_profiler.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/services.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/config/services_test.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/phpunit.xml.dist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/css/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/css/styles.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/alien-profile.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/asteroid.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/astronaut-profile.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/lightspeed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/mercury.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/meteor-shower.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/space-ice.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/images/space-nav.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/public/js/article_show.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/src/Controller/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/src/Controller/ArticleController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/src/Kernel.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/symfony.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/templates/article/homepage.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/templates/article/show.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/templates/base.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tests/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/css/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/css/styles.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/alien-profile.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/asteroid.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/astronaut-profile.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/lightspeed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/mercury.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/meteor-shower.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/space-ice.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/images/space-nav.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/templates/article.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/templates/base.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/finish/tutorial/templates/homepage.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/.env.dist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/bin/console" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/composer.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/composer.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/config/bundles.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/config/packages/dev/routing.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/config/packages/framework.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/config/packages/routing.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/config/packages/test/framework.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/config/routes.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/config/services.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/public/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/src/Controller/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/src/Kernel.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/symfony.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/css/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/css/styles.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/alien-profile.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/asteroid.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/astronaut-profile.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/lightspeed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/mercury.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/meteor-shower.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/space-ice.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/images/space-nav.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/templates/article.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/templates/base.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-symfony/start/tutorial/templates/homepage.html.twig" afterPath="" />
       <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
       <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change beforePath="$PROJECT_DIR$/config/bundles.php" afterPath="$PROJECT_DIR$/config/bundles.php" />
@@ -175,6 +183,7 @@
       <change beforePath="$PROJECT_DIR$/public/js/article_show.js" afterPath="$PROJECT_DIR$/public/js/article_show.js" />
       <change beforePath="$PROJECT_DIR$/src/Controller/.gitignore" afterPath="$PROJECT_DIR$/src/Controller/.gitignore" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SusController.php" afterPath="$PROJECT_DIR$/src/Controller/SusController.php" />
       <change beforePath="$PROJECT_DIR$/src/Entity/.gitignore" afterPath="$PROJECT_DIR$/src/Entity/.gitignore" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Sus.php" afterPath="$PROJECT_DIR$/src/Entity/Sus.php" />
       <change beforePath="$PROJECT_DIR$/src/Kernel.php" afterPath="$PROJECT_DIR$/src/Kernel.php" />
@@ -186,6 +195,7 @@
       <change beforePath="$PROJECT_DIR$/symfony.lock" afterPath="$PROJECT_DIR$/symfony.lock" />
       <change beforePath="$PROJECT_DIR$/templates/article/homepage.html.twig" afterPath="$PROJECT_DIR$/templates/article/homepage.html.twig" />
       <change beforePath="$PROJECT_DIR$/templates/article/index.html.twig" afterPath="$PROJECT_DIR$/templates/article/index.html.twig" />
+      <change beforePath="$PROJECT_DIR$/templates/article/sus.html.twig" afterPath="$PROJECT_DIR$/templates/article/sus.html.twig" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" afterPath="$PROJECT_DIR$/templates/base.html.twig" />
       <change beforePath="$PROJECT_DIR$/tests/.gitignore" afterPath="$PROJECT_DIR$/tests/.gitignore" />
       <change beforePath="$PROJECT_DIR$/translations/.gitignore" afterPath="$PROJECT_DIR$/translations/.gitignore" />
@@ -242,7 +252,7 @@
     <favorites_list name="fss-praxis" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Sus.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Entity/Sus.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -253,11 +263,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SusController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SusController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/SusController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+            <state relative-caret-position="1326">
+              <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding>
                 <element signature="e#34#53#0#PHP" expanded="true" />
                 <element signature="e#360#369#1#PHP" expanded="true" />
@@ -272,10 +282,71 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="fontawesome-webfont.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phpunit.xml.dist" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Version20180315234630.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Migrations/Version20180315234630.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+              <folding>
+                <element signature="e#65#112#0#PHP" expanded="true" />
+                <marker date="1521157591266" expanded="true" signature="563:753" ph="CREATE TABLE... sus" />
+                <marker date="1521157591266" expanded="true" signature="1062:1076" ph="DROP TABLE s... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doctrine.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/packages/prod/doctrine.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kernel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Kernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="59" column="8" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bin/console">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="sus.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/article/sus.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="510">
               <caret line="30" column="57" lean-forward="false" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
               <folding />
             </state>
@@ -441,30 +512,18 @@
             <path>
               <item name="fss-praxis" type="b2602c69:ProjectViewProjectNode" />
               <item name="fss-praxis" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="fss-praxis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fss-praxis" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="fss-praxis" type="b2602c69:ProjectViewProjectNode" />
               <item name="fss-praxis" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="fss-praxis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fss-praxis" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="fss-praxis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fss-praxis" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="fss-praxis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fss-praxis" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="article" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -480,7 +539,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="settings.editor.selected.configurable" value="Symfony.ProfilerSettingsForm" />
+    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.selected.package.stylelint" value="" />
@@ -524,7 +583,8 @@
       <updated>1521295437235</updated>
       <workItem from="1521295439224" duration="2785000" />
       <workItem from="1521298327173" duration="472000" />
-      <workItem from="1521298815963" duration="7351000" />
+      <workItem from="1521298815963" duration="8578000" />
+      <workItem from="1521395156842" duration="1178000" />
     </task>
     <servers>
       <GitHub shared="false" url="https://github.com">
@@ -547,7 +607,7 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="enabled" value="true" />
-    <option name="totallyTimeSpent" value="10608000" />
+    <option name="totallyTimeSpent" value="13013000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -562,13 +622,14 @@
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18443497" sideWeight="0.50416666" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23020834" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18869936" sideWeight="0.49583334" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19083156" sideWeight="0.49583334" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15245202" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -616,11 +677,48 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="PhpStorm-wechsel und code-symfony entfernt" />
+    <option name="LAST_COMMIT_MESSAGE" value="PhpStorm-wechsel und code-symfony entfernt" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Entity/Sus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/article/sus.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="57" lean-forward="false" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/SusController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding>
+            <element signature="e#34#53#0#PHP" expanded="true" />
+            <element signature="e#360#369#1#PHP" expanded="true" />
+            <element signature="e#413#436#0#PHP" expanded="true" />
+            <element signature="e#885#895#1#PHP" expanded="true" />
+            <element signature="e#1147#1156#1#PHP" expanded="true" />
+            <element signature="e#1431#1441#1#PHP" expanded="true" />
+            <element signature="e#1647#1656#1#PHP" expanded="true" />
+            <element signature="e#1898#1908#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -653,7 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,7 +764,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/article/sus.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="510">
           <caret line="30" column="57" lean-forward="false" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
           <folding />
         </state>
@@ -675,8 +772,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/SusController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        <state relative-caret-position="1326">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding>
             <element signature="e#34#53#0#PHP" expanded="true" />
             <element signature="e#360#369#1#PHP" expanded="true" />
@@ -687,6 +784,55 @@
             <element signature="e#1647#1656#1#PHP" expanded="true" />
             <element signature="e#1898#1908#1#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20180315234630.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="e#65#112#0#PHP" expanded="true" />
+            <marker date="1521157591266" expanded="true" signature="563:753" ph="CREATE TABLE... sus" />
+            <marker date="1521157591266" expanded="true" signature="1062:1076" ph="DROP TABLE s... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/prod/doctrine.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="59" column="8" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/console">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
