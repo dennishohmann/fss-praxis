@@ -43,6 +43,16 @@ class Genus
     private $isPublished = true;
 
     /**
+     * @ORM\OneToMany(targetEntity="GenusNote", mappedBy="genus")
+     */
+    private $notes;
+
+    public function __construct()
+    {
+        $this->notes = new ArrayCollection();
+    }
+
+    /**
      * @return mixed
      */
     public function getId()
@@ -108,5 +118,8 @@ class Genus
         return $this->isPublished;
     }
 
-
+    public function getNotes()
+    {
+        return $this->notes;
+    }
 }
