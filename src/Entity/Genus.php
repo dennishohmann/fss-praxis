@@ -17,8 +17,6 @@ class Genus
      */
     private $id;
 
-
-
     /**
      * @ORM\Column(type="string")
      */
@@ -101,4 +99,14 @@ class Genus
     {
         $this->isPublished = $isPublished;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getisPublished()
+    {
+        return $this->isPublished;
+    }
+
+
 }
