@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7599651-0d95-4088-be70-25da6a1cbb0a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Entity/GenusNote.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/config/packages/easy_admin.yaml" afterPath="$PROJECT_DIR$/config/packages/easy_admin.yaml" />
       <change beforePath="$PROJECT_DIR$/src/Controller/GenusController.php" afterPath="$PROJECT_DIR$/src/Controller/GenusController.php" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/ORM/fixtures.yaml" afterPath="$PROJECT_DIR$/src/DataFixtures/ORM/fixtures.yaml" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Genus.php" afterPath="$PROJECT_DIR$/src/Entity/Genus.php" />
-      <change beforePath="$PROJECT_DIR$/templates/article/show.html.twig" afterPath="$PROJECT_DIR$/templates/article/show.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -135,8 +130,8 @@
       <file leaf-file-name="GenusController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Controller/GenusController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="776">
-              <caret line="106" column="10" lean-forward="true" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
+            <state relative-caret-position="674">
+              <caret line="102" column="14" lean-forward="true" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
               <folding>
                 <element signature="e#34#55#0#PHP" expanded="true" />
                 <element signature="e#1463#1487#0#PHP" expanded="true" />
@@ -489,7 +484,7 @@
       <workItem from="1521295439224" duration="2785000" />
       <workItem from="1521298327173" duration="472000" />
       <workItem from="1521298815963" duration="8578000" />
-      <workItem from="1521395156842" duration="35163000" />
+      <workItem from="1521395156842" duration="35946000" />
     </task>
     <task id="LOCAL-00001" summary="PhpStorm-wechsel und code-symfony entfernt">
       <created>1521396366837</created>
@@ -512,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521481374201</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added OneToMany on GeniusNotes and fixed Json response">
+      <created>1521488284859</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1521488284859</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers>
       <GitHub shared="false" url="https://github.com">
         <option name="assignedIssuesOnly" value="false" />
@@ -534,7 +536,7 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="enabled" value="true" />
-    <option name="totallyTimeSpent" value="46998000" />
+    <option name="totallyTimeSpent" value="47781000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -550,8 +552,8 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18443497" sideWeight="0.50416666" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23238696" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -608,7 +610,8 @@
     <MESSAGE value="PhpStorm-wechsel und code-symfony entfernt" />
     <MESSAGE value="Added new Database and react.js" />
     <MESSAGE value="Added Data fixtures and nelmo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Data fixtures and nelmo" />
+    <MESSAGE value="Added OneToMany on GeniusNotes and fixed Json response" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added OneToMany on GeniusNotes and fixed Json response" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1041,8 +1044,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/GenusController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="106" column="10" lean-forward="true" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
+        <state relative-caret-position="674">
+          <caret line="102" column="14" lean-forward="true" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
           <folding>
             <element signature="e#34#55#0#PHP" expanded="true" />
             <element signature="e#1463#1487#0#PHP" expanded="true" />

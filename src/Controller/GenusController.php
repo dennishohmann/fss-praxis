@@ -99,7 +99,7 @@ class GenusController extends AbstractController
                 'username' => $note->getUsername(),
                 'avatarUri' => '/images/'.$note->getUserAvatarFilename(),
                 'note' => $note->getNote(),
-                'date' => $note->getCreatedAt()->format('M d, Y')
+                'date' => $note->getCreatedAt()->format('D d M Y')
             ];
         }
         $data = [
