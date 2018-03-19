@@ -2,6 +2,8 @@ easy_admin:
     entities:
         Sus:
             class: App\Entity\Sus
+        Genus:
+          class: App\Entity\Genus
         # List the entity class name you want to manage
 #        - 
 #        - App\Entity\Category
