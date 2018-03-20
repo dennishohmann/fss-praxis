@@ -2,33 +2,33 @@
 
 namespace App\Controller;
 
-use App\Entity\Sus;
+use App\Entity\Student;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class SusController extends AbstractController
+class StudentController extends AbstractController
 {
     /**
-     * @Route("/Sus", name="sus_show")
+     * @Route("/Student", name="student_show")
      */
     public function showSus()
     {
-        $Sus = $this->getDoctrine()->getRepository('App:Sus')->findAll();
+        $students = $this->getDoctrine()->getRepository('App:Student')->findAll();
 
         return $this->render('article/sus.html.twig', [
             'title' => 'Schülerliste',
-            'sus' => $Sus,
+            'sus' => $students,
         ]);
     }
 
     /**
-     * @Route("/Sus/insert/{name}/{vname}"), name="sus_insert")
+     * @Route("/Student/insert/{name}/{vname}"), name="sus_insert")
      */
     public function insertSus($name, $vname)
     {
         $em = $this->getDoctrine()->getManager();
 
-        $sus = new Sus();
+        $sus = new Student();
         $sus->setName($name);
         $sus->setVname($vname);
 
@@ -39,13 +39,13 @@ class SusController extends AbstractController
     }
 
     /**
-     * @Route("/Sus/update/{nr}/{name}/{vname}", name="sus_update")
+     * @Route("/Student/update/{nr}/{name}/{vname}", name="sus_update")
      */
     public function updateSus($nr, $name, $vname)
     {
         $em = $this->getDoctrine()->getManager();
 
-        $sus = $this->getDoctrine()->getRepository('App:Sus')->find($nr);
+        $sus = $this->getDoctrine()->getRepository('Student.php')->find($nr);
 
         if (!$sus){
             throw $this->createNotFoundException('Die ID '.$nr.' nicht in der Tabelle gefunden');
@@ -60,13 +60,13 @@ class SusController extends AbstractController
     }
 
     /**
-     * @Route("/Sus/delete/{nr}", name="sus_delete")
+     * @Route("/Student/delete/{nr}", name="sus_delete")
      */
     public function deleteSus($nr)
     {
         $em = $this->getDoctrine()->getManager();
 
-        $sus = $em->getRepository('App:Sus')->find($nr);
+        $sus = $em->getRepository('Student.php')->find($nr);
             if (!$sus){
                 throw $this->createNotFoundException('Die ID '.$nr.' nicht in der Tabelle gefunden');
             }

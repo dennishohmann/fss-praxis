@@ -25,7 +25,7 @@ class GenusController extends AbstractController
         $note = new GenusNote();
         $note->setUsername('AquaWeaver');
         $note->setUserAvatarFilename('ryan.jpeg');
-        $note->setNote('I counted 8 legs... as they wrapped around me');
+//        $note->setNote('I counted 8 legs... as they wrapped around me');
         $note->setCreatedAt(new \DateTime('-1 month'));
         $note->setGenus($genus);
         $em = $this->getDoctrine()->getManager();
@@ -57,14 +57,11 @@ class GenusController extends AbstractController
     public function showAction($genusName, LoggerInterface $logger)
     {
         $em = $this->getDoctrine()->getManager();
-
         $genus = $em->getRepository('App:Genus')
             ->findOneBy(['name' => $genusName]);
-
         if (!$genus) {
             throw $this->createNotFoundException('genus not found');
         }
-
         // todo - add the caching back later
         /*
         $cache = $this->get('doctrine_cache.providers.my_markdown_cache');
@@ -78,14 +75,16 @@ class GenusController extends AbstractController
             $cache->save($key, $funFact);
         }
         */
-
         $logger->info('Showing genus: '.$genusName);
-
+        $recentNotes = $genus->getNotes()
+            ->filter(function(GenusNote $note) {
+                return $note->getCreatedAt() > new \DateTime('-3 months');
+            });
         return $this->render('article/show.html.twig', array(
-            'genus' => $genus
+            'genus' => $genus,
+            'recentNoteCount' => count($recentNotes)
         ));
     }
-
     /**
      * @Route("/genus/{name}/notes", name="genus_show_notes")
      * @Method("GET")
