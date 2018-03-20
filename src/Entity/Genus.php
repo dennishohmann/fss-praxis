@@ -2,6 +2,7 @@
 
 namespace App\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -118,6 +119,10 @@ class Genus
         return $this->isPublished;
     }
 
+
+    /**
+     * @return ArrayCollection|GenusNote[]
+     */
     public function getNotes()
     {
         return $this->notes;
