@@ -6,7 +6,7 @@ use App\Entity\Student;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class StudentController extends AbstractController
+class StudentControllerOld extends AbstractController
 {
     /**
      * @Route("/Student", name="student_show")

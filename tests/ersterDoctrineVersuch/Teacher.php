@@ -33,12 +33,7 @@ class Teacher
      * @ORM\OneToMany(targetEntity="App\Entity\Klasse", mappedBy="teacher")
      */
     private $klassen;
-/*
-    public function __construct()
-    {
-        $this->klassen = new ArrayCollection();
-        $this->students = new ArrayCollection();
-    }*/
+
 
     /**
      * @ORM\ManyToMany(targetEntity="App\Entity\Student", mappedBy="teachers")
@@ -103,7 +98,7 @@ class Teacher
     }
 
     /**
-     * @return ArrayCollection|TeachersStudents[]
+     * @return ArrayCollection|TeacherStudent[]
      */
     public function getStudents()
     {

@@ -13,15 +13,6 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class ContactController extends AbstractController
 {
-    /**
-     * @Route("/contact", name="contact")
-     */
-    public function index()
-    {
-        return $this->render('contact/index.html.twig', [
-            'controller_name' => 'ContactController',
-        ]);
-    }
 
     /**
      * @Route("/article/create/", name="article_create")
@@ -53,7 +44,7 @@ class ContactController extends AbstractController
         }
 
         // render the form if it is the first request or if the validation failed
-        return $this->render('article/add-article.html.twig', [
+        return $this->render('article/article_new.html.twig', [
             'form' => $form->createView(),
         ]);
     }

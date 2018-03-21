@@ -27,8 +27,8 @@
                     <div class="col-sm-12">
                         <div class="article-text">
                             <ul>
-                                {% for person in teachers %}
-                                    <li>{{ person.id }}: {{ person.name }}, {{ person.vname }}</li>
+                                {% for klasse in klassen %}
+                                    <li>{{ klasse.id }}: {{ klasse.name }}, {{ klasse.teacher }}</li>
                                 {% endfor %}
                             </ul>
                         </div>
@@ -47,8 +47,8 @@
                         <div class="row mb-5">
                             <div class="col-sm-12">
                                 <div class="form-group">
-                                    Name <textarea class="form-control comment-form" id="LehrerName" rows="1"></textarea>
-                                    Vorname <textarea class="form-control comment-form" id="LehrerVName" rows="1"></textarea>
+                                    Name <textarea class="form-control comment-form" id="KlasseName" rows="1"></textarea>
+                                    Vorname <textarea class="form-control comment-form" id="KlasseVName" rows="1"></textarea>
                                 </div>
                                 <button type="submit" class="btn btn-info">Eintragen</button>
                                 {#<img class="comment-img rounded-circle" src="{{ asset('images/astronaut-profile.png') }}">#}

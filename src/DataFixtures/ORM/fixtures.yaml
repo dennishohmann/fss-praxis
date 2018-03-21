@@ -13,42 +13,42 @@
 #      max_unique_values_retry: 150 # Maximum number of time Alice can try to
 #                                     # generate a unique value before stopping and
 #                                     # failing.
-App\Entity\Genus:
-      genus{1..10}:
-          name: '<name()>'
-          subFamily: '<text(20)>'
-          speciesCount: '<numberBetween(100, 100000)>'
-          funFact: '<sentence()>'
-          isPublished: '<boolean(75)>'
-
-App\Entity\GenusNote:
-    genus.note{1..100}:
-        username: '<userName()>'
-        userAvatarFilename: '50%? leanna.jpeg : ryan.jpeg'
-        note: '<paragraph()>'
-        createdAt: '<dateTimeBetween("-6 months", "now")>'
-        genus: '@genus<numberbetween(1, 10)>'
-
-App\Entity\Klasse:
-    klasse{1..10}:
-        name: '<username()>'
-        teacher: '@teacher<numberbetween(1, 10)>'
-#        students: '@student<numberBetween(1, 10)>'
-#          __construct: ['@student<numberBetween(1, 10)>']
-        jahrgang: '<name(numberbetween(1, 10)>'
-
-App\Entity\Student:
-    student{1..50}:
-        name: '<userName()>'
-        vname: '50%? leanna.jpeg : ryan.jpeg'
-        klasse: '@klasse<numberbetween(1, 10)>'
-        teachers: ['@teacher<numberBetween(1,10)>']
-
-
-App\Entity\Teacher:
-    teacher{1..10}:
-        name: '<name()>'
-        vname: '<name()>'
+#App\Entity\Genus:
+#      genus{1..10}:
+#          name: '<name()>'
+#          subFamily: '<text(20)>'
+#          speciesCount: '<numberBetween(100, 100000)>'
+#          funFact: '<sentence()>'
+#          isPublished: '<boolean(75)>'
+#
+#App\Entity\GenusNote:
+#    genus.note{1..100}:
+#        username: '<userName()>'
+#        userAvatarFilename: '50%? leanna.jpeg : ryan.jpeg'
+#        note: '<paragraph()>'
+#        createdAt: '<dateTimeBetween("-6 months", "now")>'
+#        genus: '@genus<numberbetween(1, 10)>'
+#
+#App\Entity\Klasse:
+#    klasse{1..10}:
+#        name: '<username()>'
+#        teacher: '@teacher<numberbetween(1, 10)>'
+##        students: '@student<numberBetween(1, 10)>'
+##          __construct: ['@student<numberBetween(1, 10)>']
+#        jahrgang: '<name(numberbetween(1, 10)>'
+#
+#App\Entity\Student:
+#    student{1..50}:
+#        name: '<userName()>'
+#        vname: '50%? leanna.jpeg : ryan.jpeg'
+#        klasse: '@klasse<numberbetween(1, 10)>'
+#        teachers: ['@teacher<numberBetween(1,10)>']
+#
+#
+#App\Entity\Teacher:
+#    teacher{1..10}:
+#        name: '<name()>'
+#        vname: '<name()>'
 #        klassen:
 #          __construct: ['@klasse<current()>']
 #        students:

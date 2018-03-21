@@ -2,8 +2,6 @@
 
 namespace App\Entity;
 
-Use App\Entity\Student;
-use App\Entity\Teacher;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 
@@ -41,7 +39,7 @@ class Klasse
     private $teacher;
 
     /**
-     * @return mixed
+     * @return integer
      */
     public function getId()
     {
@@ -88,8 +86,23 @@ class Klasse
         return $this->students;
     }
 
+    public function __toString()
+    {
+        return (string) $this->getStudents();
+    }
+
+    public function addStudent(Student $student)
+    {
+        $this->students->add($student);
+    }
+
+    function removeStudent(Student $student)
+    {
+        $this->students->remove($student);
+    }
+
     /**
-     * @return mixed
+     * @return integer
      */
     public function getTeacher()
     {
@@ -104,15 +117,18 @@ class Klasse
         $this->teacher = $teacher;
     }
 
-    public function __construct() {
+    public function __construct(string $name, string $jahrgang, string $teacher) {
+
+        $this->name = $name;
+        $this->jahrgang = $jahrgang;
+        $this->teacher = $teacher;
         $this->students = new ArrayCollection();
     }
 
-    public function __toString(){
+/*    public function __toString(){
         // to show the name of the Category in the select
         return $this->teacher;
         // to show the id of the Category in the select
         // return $this->id;
-    }
-
+    }*/
 }

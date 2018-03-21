@@ -2,10 +2,17 @@
 
 namespace App\Controller;
 
+use App\Entity\Article;
+use App\Form\ArticleType;
 use Psr\Log\LoggerInterface;
+use Symfony\Component\Form\Extension\Core\Type\DateType;
+use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use App\Service\MarkdownHelper;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 
 class ArticleController extends AbstractController
 {
@@ -14,13 +21,13 @@ class ArticleController extends AbstractController
      */
     public function homepage()
     {
-        return $this->render('article/homepage.html.twig');
+        return $this->redirectToRoute('article_list');
     }
 
     /**
-     * @Route("/news/{slug}", name="article_show")
+     * @Route("/news/{slug}", name="news_show")
      */
-    public function show($slug, MarkdownHelper $markdownHelper)
+    public function news($slug, MarkdownHelper $markdownHelper)
     {
         $comments = [
             'I ate a normal rock once. It did NOT taste like bacon!',
@@ -67,5 +74,80 @@ EOF;
         $logger->info('Article is being hearted');
         
         return $this->json(['hearts' => rand(5,100)]);
+    }
+
+
+    /**
+     * @Route("/article", name="article_list")
+     */
+    public function articleList()
+    {
+        $em = $this->getDoctrine()->getManager();
+
+        $articles = $em->getRepository('App:Article')
+            ->findAll();
+
+        return $this->render('article/article_list.html.twig', [
+            'articles' => $articles,
+        ]);
+    }
+
+    /**
+     * @Route("/article/show/{id}", name="article_show")
+     */
+    public function show($id)
+    {
+        $em = $this->getDoctrine()->getManager();
+
+        $article = $em->getRepository('App:Article')->find($id);
+        dump($article);
+        return $this->render('article/article_show.html.twig', [
+            'article' => $article,
+        ]);
+    }
+
+
+    /**
+     * @Route("/article/new", name="article_new")
+     */
+    public function new(Request $request)
+    {
+        // creates a task and gives it some dummy data for this example
+        $article = new Article();
+        $article->setContent('Write a blog post');
+        $article->setTitle('Title');
+        $article->setPublishDate(new \DateTime('today'));
+
+        $form = $this->createForm(ArticleType::class, $article);
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            // $form->getData() holds the submitted values
+            // but, the original `$task` variable has also been updated
+            $article = $form->getData();
+
+            // ... perform some action, such as saving the task to the database
+            // for example, if Task is a Doctrine entity, save it!
+            $entityManager = $this->getDoctrine()->getManager();
+            $entityManager->persist($article);
+            $entityManager->flush();
+
+            return $this->redirectToRoute('article_list', array(
+                'message' => 'Alles eingetragen',
+            ));
+            //TODO: Message erscheint als GET im Aufruf, nicht in TWIG
+        }
+
+        /*
+         * Be aware that the createView() method should be called
+         * after handleRequest() is called. Otherwise,
+         * changes done in the *_SUBMIT events aren't applied to the view
+         * (like validation errors).
+         *
+         * */
+
+        return $this->render('article/article_new.html.twig', array(
+            'form' => $form->createView(),
+        ));
     }
 }

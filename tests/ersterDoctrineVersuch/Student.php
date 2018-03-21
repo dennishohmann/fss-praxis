@@ -4,12 +4,13 @@ namespace App\Entity;
 
 Use App\Entity\Student;
 use App\Entity\Teacher;
+use App\Entity\Klasse;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 
-/**
- * @ORM\Entity(repositoryClass="App\Repository\StudentRepository")
- */
+    /**
+     * @ORM\Entity(repositoryClass="App\Repository\StudentRepository")
+     */
 class Student
 {
     /**
@@ -31,6 +32,7 @@ class Student
 
     /**
      * @ORM\ManyToOne(targetEntity="App\Entity\Klasse", inversedBy="students")
+     * @ORM\JoinColumn(name="klasse_id", referencedColumnName="id")
      */
     private $klasse;
 
@@ -58,8 +60,8 @@ class Student
     {
         $this->name = $name;
     }
-    
-     public function getVname()
+
+    public function getVname()
     {
         return $this->vname;
     }
@@ -74,17 +76,22 @@ class Student
         $this->klasse = $klasse;
     }
 
-    public function getKlasse(): Klasse
+    public function getKlasse()
     {
         return $this->klasse;
     }
 
     /**
-     * @return ArrayCollection|Teacher[]
+     * @return ArrayCollection|StudentTeacher[]
      */
     public function getTeachers()
     {
         return $this->teachers;
+    }
+
+    public function __toString()
+    {
+        return (string) $this->getTeachers();
     }
 
     /**
@@ -95,7 +102,14 @@ class Student
         $this->teachers[] = $teachers;
     }
 
-    public function __construct() {
-        $this->teachers = new \Doctrine\Common\Collections\ArrayCollection();
+    public function __construct(string $name, string $vname, Klasse $klasse)
+    {
+
+        $this->name = $name;
+        $this->vname = $vname;
+        $this->klasse = $klasse;
+        $this->teachers = new ArrayCollection();
+
+        $this->klasse->addStudent($this);
     }
 }

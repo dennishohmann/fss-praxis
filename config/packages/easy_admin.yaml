@@ -1,18 +1,20 @@
 easy_admin:
     entities:
-        Student:
-            class: App\Entity\Student
-            form:
-              fields:
-                - 'id'
-                - 'name'
-                - { property: 'teachers', type_options: { expanded: true, multiple: true } }
-
-        Genus:
-          class: App\Entity\Genus
-        GenusNote:
-          class: App\Entity\GenusNote
-        Teacher:
-          class: App\Entity\Teacher
-        Klasse:
-          class: App\Entity\Klasse
+#        Student:
+#            class: App\Entity\Student
+#            form:
+#              fields:
+#                - 'id'
+#                - 'name'
+#                - { property: 'teachers', type_options: { expanded: true, multiple: true } }
+#
+#        Genus:
+#          class: App\Entity\Genus
+#        GenusNote:
+#          class: App\Entity\GenusNote
+#        Teacher:
+#          class: App\Entity\Teacher
+#        Klasse:
+#          class: App\Entity\Klasse
+      Article:
+        class: App\Entity\Article

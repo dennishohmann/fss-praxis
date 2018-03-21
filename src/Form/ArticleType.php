@@ -3,7 +3,8 @@
 namespace App\Form;
 
 use Symfony\Component\Form\AbstractType;
-use Symfony\Component\Form\Extension\Core\Type\DateTimeType;
+use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
+use Symfony\Component\Form\Extension\Core\Type\DateType;
 use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
@@ -25,8 +26,12 @@ class ArticleType extends AbstractType
             ->add('content', TextareaType::class, [
                 'label' => 'Article content',
             ])
-            ->add('publishDate', DateTimeType::class, [
+            ->add('publishDate', DateType::class, [
                 'label' => 'Publish on',
+                'required' => true,
+            ])
+            ->add('agreeTerms', CheckboxType::class, [
+                'mapped' => false,
             ])
             ->add('save', SubmitType::class, [
                 'label' => 'Save',
