@@ -13,6 +13,11 @@
 #      max_unique_values_retry: 150 # Maximum number of time Alice can try to
 #                                     # generate a unique value before stopping and
 #                                     # failing.
+App\Entity\Article:
+      article{1..5}:
+          title: '<catchPhrase(1)>'
+          content: '<realText(2000)>'
+          publishDate: '<dateTimeBetween("-6 months", "now")>'
 #App\Entity\Genus:
 #      genus{1..10}:
 #          name: '<name()>'
@@ -53,4 +58,3 @@
 #          __construct: ['@klasse<current()>']
 #        students:
 #          __construct: ['@student<current()>']
-

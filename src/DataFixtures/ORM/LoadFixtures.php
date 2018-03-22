@@ -2,7 +2,6 @@
 
 namespace App\DataFixtures\ORM;
 
-use App\Entity\Genus;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Common\Persistence\ObjectManager;
 use Nelmio\Alice\Loader\NativeLoader;
