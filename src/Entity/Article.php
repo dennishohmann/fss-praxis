@@ -2,6 +2,7 @@
 
 namespace App\Entity;
 
+use Ramsey\Uuid\Uuid;
 use Symfony\Component\Validator\Constraints as Assert;
 use Doctrine\ORM\Mapping as ORM;
 
@@ -14,9 +15,12 @@ use Doctrine\ORM\Mapping as ORM;
 class Article
 {
     /**
+     * @var Ramsey\Uuid
+     *
      * @ORM\Id
-     * @ORM\GeneratedValue(strategy="AUTO")
-     * @ORM\Column(type="integer")
+     * @ORM\Column(type="uuid", unique=true)
+     * @ORM\GeneratedValue(strategy="CUSTOM")
+     * @ORM\CustomIdGenerator(class="Ramsey\Uuid\Doctrine\UuidGenerator")
      */
     private $id;
     /**
@@ -43,6 +47,13 @@ class Article
         return $this->id;
     }
 
+    /**
+     * @param uuid $id
+     */
+    public function setId($id): void
+    {
+        $this->id = $id;
+    }
     public function getTitle()
     {
         return $this->title;

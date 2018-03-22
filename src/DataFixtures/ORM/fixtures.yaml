@@ -15,8 +15,9 @@
 #                                     # failing.
 App\Entity\Article:
       article{1..5}:
+          id: '<uuid()>'
           title: '<catchPhrase(1)>'
-          content: '<realText(2000)>'
+          content: '<de_DE:realText(2000)>'
           publishDate: '<dateTimeBetween("-6 months", "now")>'
 #App\Entity\Genus:
 #      genus{1..10}:
