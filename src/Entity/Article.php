@@ -15,12 +15,12 @@ use Doctrine\ORM\Mapping as ORM;
 class Article
 {
     /**
-     * @var Ramsey\Uuid
+     * @var \Ramsey\Uuid
      *
      * @ORM\Id
      * @ORM\Column(type="uuid", unique=true)
-     * @ORM\GeneratedValue(strategy="CUSTOM")
-     * @ORM\CustomIdGenerator(class="Ramsey\Uuid\Doctrine\UuidGenerator")
+     * //  ORM\GeneratedValue(strategy="UUID") // @ORM\CustomIdGenerator(class="Ramsey\Uuid\Doctrine\UuidGenerator")
+     *
      */
     private $id;
     /**
@@ -82,5 +82,10 @@ class Article
     public function setPublishDate(\DateTime $publishDate = null)
     {
     $this->publishDate = $publishDate;
+    }
+
+    public function __construct()
+    {
+        $this->id = Uuid::uuid4();
     }
 }
