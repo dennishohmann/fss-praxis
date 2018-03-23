@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f7599651-0d95-4088-be70-25da6a1cbb0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" afterPath="$PROJECT_DIR$/src/Entity/Article.php" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,15 +56,40 @@
     <favorites_list name="fss-praxis" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Article.php" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Article.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="759">
+              <caret line="117" column="32" lean-forward="false" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
               <folding>
                 <element signature="e#30#51#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+              <folding>
+                <element signature="e#30#78#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="34">
+                <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -89,8 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/js/main.js" />
-        <option value="$PROJECT_DIR$/src/DataFixtures/ORM/AppFixtures.php" />
         <option value="$PROJECT_DIR$/src/Entity/Notes" />
         <option value="$PROJECT_DIR$/templates/article/lehrer.html.twig" />
         <option value="$PROJECT_DIR$/src/Entity/Genus.php" />
@@ -128,7 +151,6 @@
         <option value="$PROJECT_DIR$/src/Entity/Klasse.php" />
         <option value="$PROJECT_DIR$/src/Entity/Task.php" />
         <option value="$PROJECT_DIR$/src/Repository/ArticleRepository.php" />
-        <option value="$PROJECT_DIR$/config/packages/easy_admin.yaml" />
         <option value="$PROJECT_DIR$/templates/article/article_show.html.twig" />
         <option value="$PROJECT_DIR$/templates/article/homepage.html.twig" />
         <option value="$PROJECT_DIR$/templates/article/article_new.html.twig" />
@@ -139,7 +161,10 @@
         <option value="$PROJECT_DIR$/src/DataFixtures/ORM/LoadFixtures.php" />
         <option value="$PROJECT_DIR$/config/packages/doctrine.yaml" />
         <option value="$PROJECT_DIR$/src/DataFixtures/ORM/fixtures.yaml" />
+        <option value="$PROJECT_DIR$/config/packages/easy_admin.yaml" />
         <option value="$PROJECT_DIR$/src/Entity/Article.php" />
+        <option value="$PROJECT_DIR$/src/Entity/User.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -265,10 +290,10 @@
       <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="6" />
     <option name="y" value="35" />
-    <option name="width" value="1435" />
+    <option name="width" value="1765" />
     <option name="height" value="1003" />
   </component>
   <component name="ProjectView">
@@ -287,7 +312,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -295,26 +319,11 @@
               <item name="fss-praxis" type="b2602c69:ProjectViewProjectNode" />
               <item name="fss-praxis" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="fss-praxis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fss-praxis" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="fss-praxis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fss-praxis" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="fss-praxis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fss-praxis" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,11 +334,12 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="SearchEverywhereHistoryKey" value="App\Entity\user&#9;FILE&#9;file://C:/Users/denni/code/fss-praxis/vendor/easycorp/easyadmin-bundle/tests/Fixtures/AppTestBundle/Entity/FunctionalTests/LegacyUser.php&#10;user&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -380,7 +390,8 @@
       <workItem from="1521295439224" duration="2785000" />
       <workItem from="1521298327173" duration="472000" />
       <workItem from="1521298815963" duration="8578000" />
-      <workItem from="1521395156842" duration="121879000" />
+      <workItem from="1521395156842" duration="135933000" />
+      <workItem from="1521816419384" duration="799000" />
     </task>
     <task id="LOCAL-00001" summary="PhpStorm-wechsel und code-symfony entfernt">
       <created>1521396366837</created>
@@ -501,7 +512,21 @@
       <option name="project" value="LOCAL" />
       <updated>1521684099120</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="uuid">
+      <created>1521686487750</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1521686487751</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added User-Entity and fixtures for user-Entity&#10;Everything working with uuid-primaries">
+      <created>1521816154812</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1521816154812</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers>
       <GitHub shared="false" url="https://github.com">
         <option name="assignedIssuesOnly" value="false" />
@@ -523,7 +548,7 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="enabled" value="true" />
-    <option name="totallyTimeSpent" value="133714000" />
+    <option name="totallyTimeSpent" value="148567000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -535,30 +560,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="35" width="1435" height="1003" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912722" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29411766" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29375" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18443497" sideWeight="0.50416666" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23229167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15245202" sideWeight="0.5116279" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32945454" sideWeight="0.49583334" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24413647" sideWeight="0.49583334" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15245202" sideWeight="0.4883721" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Time Tracking" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18443497" sideWeight="0.50416666" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -632,322 +657,21 @@
     <MESSAGE value="aufgeräumt" />
     <MESSAGE value="fixtures funktioniert" />
     <MESSAGE value="uuid und deutscher Text" />
-    <option name="LAST_COMMIT_MESSAGE" value="uuid und deutscher Text" />
+    <MESSAGE value="uuid" />
+    <MESSAGE value="Added User-Entity and fixtures for user-Entity&#10;Everything working with uuid-primaries" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added User-Entity and fixtures for user-Entity&#10;Everything working with uuid-primaries" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/fixtures/Definition/ServiceReference/FakeReference.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/fixtures/Entity/DummyWithConstructorAndCallable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/fixtures/Generator/Resolver/FakeFixtureBagResolver.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/fixtures/Generator/ResolvedFixtureSetFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/fixtures/Definition/MethodCall/DummyMethodCall.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/doc/complete-reference.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-2193">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1521324793000" expanded="true" signature="867:1179" ph="Nelmio\Entity\User: &lt;2 keys&gt;" />
-              <marker date="1521324793000" expanded="true" signature="891:1029" ph="user0: &lt;5 keys&gt;" />
-              <marker date="1521324793000" expanded="true" signature="916:919" ph="bob" />
-              <marker date="1521324793000" expanded="true" signature="938:941" ph="Bob" />
-              <marker date="1521324793000" expanded="true" signature="961:971" ph="1980-10-10" />
-              <marker date="1521324793000" expanded="true" signature="987:1002" ph="bob@example.org" />
-              <marker date="1521324793000" expanded="true" signature="1027:1029" ph="42" />
-              <marker date="1521324793000" expanded="true" signature="1035:1179" ph="user1: &lt;5 keys&gt;" />
-              <marker date="1521324793000" expanded="true" signature="1060:1065" ph="alice" />
-              <marker date="1521324793000" expanded="true" signature="1084:1089" ph="Alice" />
-              <marker date="1521324793000" expanded="true" signature="1109:1119" ph="1978-07-12" />
-              <marker date="1521324793000" expanded="true" signature="1135:1152" ph="alice@example.org" />
-              <marker date="1521324793000" expanded="true" signature="1177:1179" ph="27" />
-              <marker date="1521324793000" expanded="true" signature="1181:1234" ph="Nelmio\Entity\Group: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="1206:1234" ph="group1: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="1228:1234" ph="Admins" />
-              <marker date="1521324793000" expanded="true" signature="1533:1785" ph="..." />
-              <marker date="1521324793000" expanded="true" signature="1577:1782" ph="..." />
-              <marker date="1521324793000" expanded="true" signature="1598:1673" ph="..." />
-              <marker date="1521324793000" expanded="true" signature="1696:1775" ph="..." />
-              <marker date="1521324793000" expanded="true" signature="1994:2162" ph="Nelmio\Entity\User: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="2018:2162" ph="user{1..10}: &lt;5 keys&gt;" />
-              <marker date="1521324793000" expanded="true" signature="2049:2052" ph="bob" />
-              <marker date="1521324793000" expanded="true" signature="2071:2074" ph="Bob" />
-              <marker date="1521324793000" expanded="true" signature="2094:2104" ph="1980-10-10" />
-              <marker date="1521324793000" expanded="true" signature="2120:2135" ph="bob@example.org" />
-              <marker date="1521324793000" expanded="true" signature="2160:2162" ph="42" />
-              <marker date="1521324793000" expanded="true" signature="2421:2625" ph="Nelmio\Entity\User: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="2445:2625" ph="user_{alice, bob}: &lt;5 keys&gt;" />
-              <marker date="1521324793000" expanded="true" signature="2482:2495" ph="&lt;current()&gt;" />
-              <marker date="1521324793000" expanded="true" signature="2514:2527" ph="&lt;current()&gt;" />
-              <marker date="1521324793000" expanded="true" signature="2547:2557" ph="1980-10-10" />
-              <marker date="1521324793000" expanded="true" signature="2573:2598" ph="&lt;current(…xample.org" />
-              <marker date="1521324793000" expanded="true" signature="2623:2625" ph="42" />
-              <marker date="1521324793000" expanded="true" signature="3500:3631" ph="Nelmio\Entity\User: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="3524:3631" ph="user1: &lt;2 keys&gt;" />
-              <marker date="1521324793000" expanded="true" signature="3549:3563" ph="&lt;username()&gt;" />
-              <marker date="1521324793000" expanded="true" signature="3572:3631" ph="__calls: &lt;1 item&gt;" />
-              <marker date="1521324793000" expanded="true" signature="3595:3631" ph="setLocation: [2 items]" />
-              <marker date="1521324793000" expanded="true" signature="3609:3618" ph="40.689269" />
-              <marker date="1521324793000" expanded="true" signature="3620:3630" ph="-74.044737" />
-              <marker date="1521324793000" expanded="true" signature="3734:3934" ph="Nelmio\Entity\User: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="3758:3934" ph="user{1..10}: &lt;2 keys&gt;" />
-              <marker date="1521324793000" expanded="true" signature="3789:3803" ph="&lt;username()&gt;" />
-              <marker date="1521324793000" expanded="true" signature="3812:3934" ph="__calls: &lt;1 item&gt;" />
-              <marker date="1521324793000" expanded="true" signature="3835:3934" ph="setLocation: &lt;2 keys&gt;" />
-              <marker date="1521324793000" expanded="true" signature="3876:3890" ph="&lt;latitude()&gt;" />
-              <marker date="1521324793000" expanded="true" signature="3919:3934" ph="&lt;longitude()&gt;" />
-              <marker date="1521324793000" expanded="true" signature="3986:4010" ph="parameters: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="4007:4010" ph="bar" />
-              <marker date="1521324793000" expanded="true" signature="4012:4332" ph="Nelmio\Entity\Dummy: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="4037:4332" ph="dummy{1..10}: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="4059:4332" ph="__calls: &lt;1 item&gt;" />
-              <marker date="1521324793000" expanded="true" signature="4082:4332" ph="setLocation: &lt;4 keys&gt;" />
-              <marker date="1521324793000" expanded="true" signature="4117:4126" ph="&lt;{foo}&gt;" />
-              <marker date="1521324793000" expanded="true" signature="4149:4156" ph="$arg0" />
-              <marker date="1521324793000" expanded="true" signature="4206:4209" ph="500" />
-              <marker date="1521324793000" expanded="true" signature="4328:4332" ph="$3" />
-              <marker date="1521324793000" expanded="true" signature="5248:5386" ph="Nelmio\Entity\User: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="5272:5386" ph="user1: &lt;2 keys&gt;" />
-              <marker date="1521324793000" expanded="true" signature="5297:5311" ph="&lt;username()&gt;" />
-              <marker date="1521324793000" expanded="true" signature="5320:5386" ph="__calls: &lt;1 item&gt;" />
-              <marker date="1521324793000" expanded="true" signature="5343:5386" ph="setLocation (80%?): [2 items]" />
-              <marker date="1521324793000" expanded="true" signature="5364:5373" ph="40.689269" />
-              <marker date="1521324793000" expanded="true" signature="5375:5385" ph="-74.044737" />
-              <marker date="1521324793000" expanded="true" signature="5613:5681" ph="Nelmio\Entity\User: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="5637:5681" ph="user1: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="5652:5681" ph="__construct: [1 item]" />
-              <marker date="1521324793000" expanded="true" signature="5666:5680" ph="&lt;username()&gt;" />
-              <marker date="1521324793000" expanded="true" signature="5823:5880" ph="Nelmio\Entity\User: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="5847:5880" ph="user1: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="5875:5880" ph="false" />
-              <marker date="1521324793000" expanded="true" signature="6262:6340" ph="Nelmio\Entity\User: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="6286:6340" ph="user1: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="6301:6340" ph="__factory: {1 key}" />
-              <marker date="1521324793000" expanded="true" signature="6314:6338" ph="create: [1 item]" />
-              <marker date="1521324793000" expanded="true" signature="6323:6337" ph="&lt;username()&gt;" />
-              <marker date="1521324793000" expanded="true" signature="6431:6534" ph="Nelmio\Entity\User: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="6455:6534" ph="user1: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="6470:6534" ph="__factory: {1 key}" />
-              <marker date="1521324793000" expanded="true" signature="6483:6532" ph="Nelmio\Us…ry::create: [1 item]" />
-              <marker date="1521324793000" expanded="true" signature="6517:6531" ph="&lt;username()&gt;" />
-              <marker date="1521324793000" expanded="true" signature="7082:7317" ph="Nelmio\Entity\User: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="7106:7317" ph="user{1..10}: &lt;5 keys&gt;" />
-              <marker date="1521324793000" expanded="true" signature="7137:7151" ph="&lt;username()&gt;" />
-              <marker date="1521324793000" expanded="true" signature="7170:7198" ph="&lt;firstNam…astName()&gt;" />
-              <marker date="1521324793000" expanded="true" signature="7218:7235" ph="&lt;date_create()&gt;" />
-              <marker date="1521324793000" expanded="true" signature="7251:7262" ph="&lt;email()&gt;" />
-              <marker date="1521324793000" expanded="true" signature="7287:7317" ph="50%? &lt;num…n(1, 200)&gt;" />
-              <marker date="1521324793000" expanded="true" signature="7915:7993" ph="Nelmio\Entity\User: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="7939:7993" ph="user{1..10}: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="7979:7993" ph="&lt;username()&gt;" />
-              <marker date="1521324793000" expanded="true" signature="8094:8190" ph="Nelmio\Entity\User: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="8118:8190" ph="user{1..10}: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="8139:8190" ph="__construct: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="8176:8190" ph="&lt;username()&gt;" />
-              <marker date="1521324793000" expanded="true" signature="8337:8471" ph="Nelmio\Entity\User: &lt;2 keys&gt;" />
-              <marker date="1521324793000" expanded="true" signature="8361:8417" ph="friends{1..2}: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="8403:8417" ph="&lt;username()&gt;" />
-              <marker date="1521324793000" expanded="true" signature="8422:8471" ph="user{1..2}: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="8460:8471" ph="@friends*" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/console">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/doc/getting-started.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1521324793000" expanded="true" signature="6538:6773" ph="Nelmio\Entity\User: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="6562:6773" ph="user{1..10}: &lt;5 keys&gt;" />
-              <marker date="1521324793000" expanded="true" signature="6593:6607" ph="&lt;username()&gt;" />
-              <marker date="1521324793000" expanded="true" signature="6626:6654" ph="&lt;firstNam…astName()&gt;" />
-              <marker date="1521324793000" expanded="true" signature="6674:6691" ph="&lt;date_create()&gt;" />
-              <marker date="1521324793000" expanded="true" signature="6707:6718" ph="&lt;email()&gt;" />
-              <marker date="1521324793000" expanded="true" signature="6743:6773" ph="50%? &lt;num…n(1, 200)&gt;" />
-              <marker date="1521324793000" expanded="true" signature="6775:7013" ph="Nelmio\Entity\Group: &lt;1 key&gt;" />
-              <marker date="1521324793000" expanded="true" signature="6800:7013" ph="group1: &lt;5 keys&gt;" />
-              <marker date="1521324793000" expanded="true" signature="6822:6828" ph="Admins" />
-              <marker date="1521324793000" expanded="true" signature="6844:6852" ph="@user1" />
-              <marker date="1521324793000" expanded="true" signature="6870:6902" ph="&lt;numberBe…)&gt;x @user*" />
-              <marker date="1521324793000" expanded="true" signature="6920:6959" ph="&lt;dateTime…&quot;, &quot;now&quot;)&gt;" />
-              <marker date="1521324793000" expanded="true" signature="6977:7013" ph="&lt;dateTime…d, &quot;now&quot;)&gt;" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/profiling/scenario0/blackfire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/profiling/scenario1/immutable_user.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/profiling/scenario1/ImmutableUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-541">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/profiling/scenario1/mutable_user.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/profiling/scenario1/MutableUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/profiling/scenario1/public_user.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/profiling/scenario1/PublicUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/profiling/scenario1/stdClass.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/profiling/scenario2/ImmutableUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-541">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/profiling/scenario2/MutableUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-663">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/profiling/scenario2/PublicUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/profiling/scenario2/fixtures.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/profiling/scenario2/blackfire.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-48">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -955,7 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,7 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,7 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-541">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -980,7 +701,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -990,7 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -998,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-371">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1006,7 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-201">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,7 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1022,7 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1030,7 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-252">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,10 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1521675999595" expanded="true" signature="563:633" ph="ALTER TABLE article... " />
-            <marker date="1521675999595" expanded="true" signature="942:1008" ph="ALTER TABLE article... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1057,7 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,7 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-99">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1073,7 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1081,9 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="e#40#83#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1108,7 +812,7 @@
         <state relative-caret-position="51">
           <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
-            <element signature="e#506#557#0#PHP" expanded="true" />
+            <element signature="e#506#557#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1117,23 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-306">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataFixtures/ORM/fixtures.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1141,7 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1731">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1149,7 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,7 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-306">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1165,11 +849,292 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1663">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/de_DE/Company.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/\App\Form\ArticleType">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>\App\Form\ArticleType</OriginalElement>
+          <nodes>
+            <node x="" y="">\Symfony\Component\Form\FormTypeInterface</node>
+            <node x="" y="">\App\Controller\ArticleController</node>
+            <node x="" y="">\Symfony\Bundle\FrameworkBundle\Controller\AbstractController</node>
+            <node x="" y="">\App\Form\ArticleType</node>
+            <node x="" y="">\Symfony\Component\Form\AbstractType</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="66.0" y="235.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/\App\Controller\ArticleController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>\App\Controller\ArticleController</OriginalElement>
+          <nodes>
+            <node x="" y="">\App\Controller\ArticleController</node>
+            <node x="" y="">\Symfony\Component\DependencyInjection\ServiceSubscriberInterface</node>
+            <node x="" y="">\Symfony\Bundle\FrameworkBundle\Controller\AbstractController</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="85.0" y="94.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/\App\Entity\Article">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>\App\Entity\Article</OriginalElement>
+          <nodes>
+            <node x="" y="">\App\Entity\Article</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="33.0" y="15.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Users/denni/code/fss-praxis/src/Controller">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src/Controller</OriginalElement>
+          <nodes>
+            <node x="259.0" y="291.0">\App\Controller\ContactController</node>
+            <node x="0.0" y="247.0">\App\Controller\ArticleController</node>
+            <node x="148.0" y="0.0">\Symfony\Component\DependencyInjection\ServiceSubscriberInterface</node>
+            <node x="148.0" y="101.0">\Symfony\Bundle\FrameworkBundle\Controller\AbstractController</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="\Symfony\Bundle\FrameworkBundle\Controller\AbstractController" target="\Symfony\Component\DependencyInjection\ServiceSubscriberInterface">
+              <point x="0.0" y="-48.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="\App\Controller\ContactController" target="\Symfony\Bundle\FrameworkBundle\Controller\AbstractController">
+              <point x="0.0" y="-36.5" />
+              <point x="373.5" y="222.0" />
+              <point x="295.75" y="222.0" />
+              <point x="49.25" y="48.0" />
+            </edge>
+            <edge source="\App\Controller\ArticleController" target="\Symfony\Bundle\FrameworkBundle\Controller\AbstractController">
+              <point x="0.0" y="-80.5" />
+              <point x="119.5" y="222.0" />
+              <point x="197.25" y="222.0" />
+              <point x="-49.25" y="48.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-88.0" y="-74.0" />
+          <SelectedNodes>
+            <node>\Symfony\Bundle\FrameworkBundle\Controller\AbstractController</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constants</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/Users/denni/code/fss-praxis/public">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/public</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/public/fonts</node>
+            <node x="" y="">$PROJECT_DIR$/public/bundles</node>
+            <node x="" y="">$PROJECT_DIR$/public/css</node>
+            <node x="" y="">$PROJECT_DIR$/public/images</node>
+            <node x="" y="">$PROJECT_DIR$/public/js</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="95.0" y="89.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/DoctrineTutorials/GenusNoteRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/doc/complete-reference.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-357">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/doc/relations-handling.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/doc/fixtures-refactoring.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/doc/customizing-data-generation.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="459">
+            <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ersterDoctrineVersuch/Klasse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="38" column="19" lean-forward="false" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/DoctrineTutorials/Genus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/nelmio/alice/doc/advanced-guide.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/DoctrineTutorials/GenusNote.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-592">
+          <caret line="42" column="7" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataFixtures/ORM/fixtures.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/easycorp/easyadmin-bundle/tests/Fixtures/AppTestBundle/Entity/FunctionalTests/LegacyUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/easycorp/easyadmin-bundle/tests/Fixtures/AppTestBundle/Entity/FunctionalTests/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/easy_admin.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/ramsey_uuid_doctrine.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/doctrine_migrations.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1179,13 +1144,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="759">
+          <caret line="117" column="32" lean-forward="false" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
           <folding>
             <element signature="e#30#51#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="e#30#78#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
