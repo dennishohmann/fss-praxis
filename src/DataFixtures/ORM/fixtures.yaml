@@ -25,8 +25,12 @@ App\Entity\User:
           id: '<uuid()>'
           name: '<de_DE:lastname()>'
           vname: '<de_DE:firstname()>'
+          username: '<de_DE:username()>'
           email: '<de_DE:email()>'
-          role: '50%? student : teacher'
+          roles: ['<word()>', '<word()>']
+          password: '<de_DE:password()>'
+          apiKey (unique): '<name()>'
+          isActive: '<boolean()>'
           articles: ['@article*']
 #App\Entity\Genus:
 #      genus{1..10}:
