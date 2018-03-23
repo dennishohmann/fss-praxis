@@ -18,3 +18,5 @@ easy_admin:
 #          class: App\Entity\Klasse
       Article:
         class: App\Entity\Article
+      User:
+        class: App\Entity\User

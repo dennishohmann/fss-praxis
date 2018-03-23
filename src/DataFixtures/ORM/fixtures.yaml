@@ -19,6 +19,15 @@ App\Entity\Article:
           title: '<catchPhrase(1)>'
           content: '<de_DE:realText(2000)>'
           publishDate: '<dateTimeBetween("-6 months", "now")>'
+          user: '@user*'
+App\Entity\User:
+      user{1..10}:
+          id: '<uuid()>'
+          name: '<de_DE:lastname()>'
+          vname: '<de_DE:firstname()>'
+          email: '<de_DE:email()>'
+          role: '50%? student : teacher'
+          articles: ['@article*']
 #App\Entity\Genus:
 #      genus{1..10}:
 #          name: '<name()>'

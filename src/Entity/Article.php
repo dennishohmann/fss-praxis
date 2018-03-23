@@ -18,7 +18,7 @@ class Article
      * @var \Ramsey\Uuid
      *
      * @ORM\Id
-     * @ORM\Column(type="uuid", unique=true)
+     * @ORM\Column(type="uuid_binary", unique=true)
      * //  ORM\GeneratedValue(strategy="UUID") // @ORM\CustomIdGenerator(class="Ramsey\Uuid\Doctrine\UuidGenerator")
      *
      */
@@ -41,6 +41,12 @@ class Article
      * @Assert\Type("\DateTime")
      */
     private $publishDate;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\User", inversedBy="articles")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $user;
 
     public function getId()
     {
@@ -84,8 +90,32 @@ class Article
     $this->publishDate = $publishDate;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getUser()
+    {
+        return $this->user;
+    }
+
+    /**
+     * @param mixed $user
+     */
+    public function setUser($user): void
+    {
+        $this->user = $user;
+    }
+
+
+
     public function __construct()
     {
         $this->id = Uuid::uuid4();
     }
+
+    public function __toString()
+    {
+        return $this->getTitle();
+    }
+
 }
