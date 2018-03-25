@@ -19,19 +19,19 @@ App\Entity\Article:
           title: '<catchPhrase(1)>'
           content: '<de_DE:realText(2000)>'
           publishDate: '<dateTimeBetween("-6 months", "now")>'
-          user: '@user*'
-App\Entity\User:
-      user{1..10}:
-          id: '<uuid()>'
-          name: '<de_DE:lastname()>'
-          vname: '<de_DE:firstname()>'
-          username: '<de_DE:username()>'
-          email: '<de_DE:email()>'
-          roles: ['<word()>', '<word()>']
-          password: '<de_DE:password()>'
-          apiKey (unique): '<name()>'
-          isActive: '<boolean()>'
-          articles: ['@article*']
+          user: '@user->id'
+#App\Entity\User:
+#      user{1..10}:
+#          id: '<uuid()>'
+#          name: '<de_DE:lastname()>'
+#          vname: '<de_DE:firstname()>'
+#          username: '<de_DE:username()>'
+#          email: '<de_DE:email()>'
+#          roles: ['ROLE_USER']
+#          password: '<de_DE:password()>'
+#          apiKey (unique): '<name()>'
+#          isActive: '<boolean()>'
+#          articles: ['@article*']
 #App\Entity\Genus:
 #      genus{1..10}:
 #          name: '<name()>'

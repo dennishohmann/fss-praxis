@@ -1,3 +1,7 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+#logout:
+#    path: /admin/logout
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
