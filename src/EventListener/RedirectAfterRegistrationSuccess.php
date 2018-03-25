@@ -14,12 +14,12 @@ use FOS\UserBundle\FOSUserEvents;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\Routing\RouterInterface;
+use Symfony\Component\Security\Http\Util\TargetPathTrait;
 
 class RedirectAfterRegistrationSuccess implements EventSubscriberInterface
 {
-    /**
-     * @var RouterInterface
-     */
+    use TargetPathTrait;
+
     private $router;
 
     public function __construct(RouterInterface $router)
@@ -29,7 +29,11 @@ class RedirectAfterRegistrationSuccess implements EventSubscriberInterface
 
     public function onRegistrationSuccess(FormEvent $event)
     {
-        $url = $this->router->generate('app_homepage');
+        // main is your firewall's name
+        $url = $this->getTargetPath($event->getRequest()->getSession(), 'main');
+        if (!$url) {
+            $url = $this->router->generate('app_homepage');
+        }
         $response = new RedirectResponse($url);
         $event->setResponse($response);
     }
