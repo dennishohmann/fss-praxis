@@ -23,7 +23,7 @@ security:
 #                property: username
 #                manager_name: customer
         fos_userbundle:
-            id: fos_user.user_provider.username_email
+            id: fos_user.user_provider.username
 
 
     firewalls:
