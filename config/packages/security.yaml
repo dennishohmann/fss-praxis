@@ -32,9 +32,13 @@ security:
             security: false
         main:
             pattern: ^/
-            form_login:
-                provider: fos_userbundle
-                csrf_token_generator: security.csrf.token_manager
+#            form_login:
+#                provider: fos_userbundle
+#                csrf_token_generator: security.csrf.token_manager
+
+            guard:
+                authenticators:
+                    - app.security.login_form_authenticator
 
             logout:       true
             anonymous:    true
