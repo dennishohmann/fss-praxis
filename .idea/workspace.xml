@@ -1,105 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7599651-0d95-4088-be70-25da6a1cbb0a" name="Default" comment="working Encore, jQuery and Sass in seperate Project &quot;Lift&quot;">
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/css/login.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/css/main.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/images/dumbbell-mini.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/components/RepLogApp.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/components/RepLogHelper.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/components/routing.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/layout.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/login.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/rep_log.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/static/dumbbell.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/routes/fos_js_routing.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/routes/fos_user.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Api/RepLogApiModel.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controller/BaseController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controller/LiftController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controller/RepLogController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/DataFixtures/ORM/LoadReps.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Entity/RepLog.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Form/Type/RepLogType.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Repository/RepLogRepository.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/lift/_form.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/lift/_leaderboard.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/lift/index.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/liftbase.html.twig" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/fss-praxis.iml" afterPath="$PROJECT_DIR$/.idea/fss-praxis.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+    <list default="true" id="f7599651-0d95-4088-be70-25da6a1cbb0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/css/global.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/images/aquanote-logo.png" afterPath="$PROJECT_DIR$/public/assets/images/aquanote-logo.png" />
-      <change beforePath="$PROJECT_DIR$/assets/images/leanna.jpeg" afterPath="$PROJECT_DIR$/public/assets/images/leanna.jpeg" />
-      <change beforePath="$PROJECT_DIR$/assets/images/octopus-rubescens.jpg" afterPath="$PROJECT_DIR$/public/assets/images/octopus-rubescens.jpg" />
-      <change beforePath="$PROJECT_DIR$/assets/images/ryan.jpeg" afterPath="$PROJECT_DIR$/public/assets/images/ryan.jpeg" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" afterPath="$PROJECT_DIR$/config/bundles.php" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/public/css/styles.css" afterPath="$PROJECT_DIR$/public/css/styles.css" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/ORM/fixtures.yaml" afterPath="$PROJECT_DIR$/src/DataFixtures/ORM/fixtures.yaml" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" afterPath="$PROJECT_DIR$/src/Entity/User.php" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" afterPath="$PROJECT_DIR$/symfony.lock" />
-      <change beforePath="$PROJECT_DIR$/templates/bundles/FOSUserBundle/Security/login.html.twig" afterPath="$PROJECT_DIR$/templates/bundles/FOSUserBundle/Security/login.html.twig" />
-      <change beforePath="$PROJECT_DIR$/tests/AppUserAuthenticator.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/ContactType.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/CreateArticleRequest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/DoctrineTutorials/Genus.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/DoctrineTutorials/GenusController.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/DoctrineTutorials/GenusNote.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/DoctrineTutorials/GenusNoteRepository.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/DoctrineTutorials/list.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/DoctrineTutorials/show.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/Task.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/TaskController.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/TaskType.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/UpdateArticleRequest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/UserController.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/UserRepository.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/UserType.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/ersterDoctrineVersuch/Klasse.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/ersterDoctrineVersuch/KlasseController.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/ersterDoctrineVersuch/KlasseRepository.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/ersterDoctrineVersuch/Student.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/ersterDoctrineVersuch/StudentController_old.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/ersterDoctrineVersuch/StudentRepository.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/ersterDoctrineVersuch/StudentType.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/ersterDoctrineVersuch/Teacher.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/ersterDoctrineVersuch/TeacherController.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/ersterDoctrineVersuch/TeacherRepository.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/ersterDoctrineVersuch/klasse.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/ersterDoctrineVersuch/sus.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/ersterDoctrineVersuch/teacher.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/make-crud/StudentController.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/make-crud/StudentType.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/make-crud/student/_delete_form.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/make-crud/student/_form.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/make-crud/student/edit.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/make-crud/student/index.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/make-crud/student/new.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/make-crud/student/show.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/symfonyTutorial/ArticleController.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/symfonyTutorial/add-article.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/symfonyTutorial/base.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/symfonyTutorial/homepage.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/symfonyTutorial/index.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/symfonyTutorial/task.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/user/_delete_form.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/user/_form.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/user/edit.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/user/index.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/user/new.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tests/user/show.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -153,38 +58,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="layout.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/layout.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#15#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fos_js_routes.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/fos_js_routes.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="notes.react.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/notes.react.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -235,8 +108,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/build/manifest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="framework.yaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/packages/framework.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FOSUserBundle.de.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/translations/FOSUserBundle/FOSUserBundle.de.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -290,7 +203,6 @@
         <option value="$PROJECT_DIR$/src/Kernel.php" />
         <option value="$PROJECT_DIR$/config/routes.yaml" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/config/packages/framework.yaml" />
         <option value="$PROJECT_DIR$/src/FOSUserBundle/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/translations/FOSUserBundle/FOSUserBundle.de.yml" />
         <option value="$PROJECT_DIR$/templates/article/article_show.html.twig" />
@@ -327,11 +239,12 @@
         <option value="$PROJECT_DIR$/assets/js/rep_log.js" />
         <option value="$PROJECT_DIR$/assets/js/components/RepLogApp.js" />
         <option value="$PROJECT_DIR$/assets/js/components/routing.js" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/templates/liftbase.html.twig" />
         <option value="$PROJECT_DIR$/assets/js/layout.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/config/packages/framework.yaml" />
       </list>
     </option>
   </component>
@@ -514,7 +427,13 @@
             <path>
               <item name="fss-praxis" type="b2602c69:ProjectViewProjectNode" />
               <item name="fss-praxis" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="playground" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="fss-praxis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fss-praxis" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="packages" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="fss-praxis" type="b2602c69:ProjectViewProjectNode" />
@@ -524,12 +443,15 @@
             <path>
               <item name="fss-praxis" type="b2602c69:ProjectViewProjectNode" />
               <item name="fss-praxis" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="build" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="fss-praxis" type="b2602c69:ProjectViewProjectNode" />
               <item name="fss-praxis" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="build" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -608,7 +530,7 @@
       <workItem from="1521816419384" duration="7509000" />
       <workItem from="1521825262750" duration="755000" />
       <workItem from="1521914258734" duration="69429000" />
-      <workItem from="1522157802170" duration="17432000" />
+      <workItem from="1522157802170" duration="19302000" />
     </task>
     <task id="LOCAL-00001" summary="PhpStorm-wechsel und code-symfony entfernt">
       <created>1521396366837</created>
@@ -806,7 +728,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522077316446</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="working Encore, jQuery and Sass in seperate Project &quot;Lift&quot;">
+      <created>1522188037952</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1522188037952</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers>
       <GitHub shared="false" url="https://github.com">
         <option name="assignedIssuesOnly" value="false" />
@@ -828,7 +757,7 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="enabled" value="true" />
-    <option name="totallyTimeSpent" value="247133000" />
+    <option name="totallyTimeSpent" value="249003000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -841,10 +770,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1047" height="1049" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912722" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5021322" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29572836" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29572836" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23229167" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15245202" sideWeight="0.5116279" order="5" side_tool="true" content_ui="tabs" />
@@ -933,32 +863,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Repository/UserRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/RepLogRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="e#34#56#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="4217" column="4" lean-forward="false" selection-start-line="4217" selection-start-column="4" selection-end-line="4217" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/easycorp/easy-log-handler/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1231,14 +1135,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/bundles/FOSUserBundle/Security/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -1282,7 +1178,7 @@
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#15#38#0" expanded="true" />
+            <element signature="e#15#38#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1363,6 +1259,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/translations/FOSUserBundle/FOSUserBundle.de.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/build/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/framework.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
           <folding />
         </state>
       </provider>

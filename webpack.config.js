@@ -25,6 +25,9 @@ Encore
     // uncomment for legacy applications that require $/jQuery as a global variable
     .autoProvidejQuery()
 
+    .cleanupOutputBeforeBuild()
+    .enableVersioning()
+
     .addPlugin(new CopyWebpackPlugin([
         // copies to {output}/static
         { from: './assets/static', to: 'static' }
@@ -33,16 +36,19 @@ Encore
     //.enableBuildNotifications()
 ;
     // fetch the config, then modify it!
-    var config = Encore.getWebpackConfig();
-    config.watchOptions = { poll: true };
+    // var config = Encore.getWebpackConfig();
+    // config.watchOptions = { poll: true };
 
     // other examples: add an alias or extension
     // config.resolve.alias.local = path.resolve(__dirname, './resources/src');
     // config.resolve.extensions.push('json');
 
     // export the final config
-    module.exports = config;
+    // module.exports = config;
 
 
 module.exports = Encore.getWebpackConfig();
-module.exports = config;
+
+
+// command
+//  yarn watch
