@@ -13,13 +13,13 @@
 #      max_unique_values_retry: 150 # Maximum number of time Alice can try to
 #                                     # generate a unique value before stopping and
 #                                     # failing.
-App\Entity\Article:
-      article{1..5}:
-          id: '<uuid()>'
-          title: '<catchPhrase(1)>'
-          content: '<de_DE:realText(2000)>'
-          publishDate: '<dateTimeBetween("-6 months", "now")>'
-          user: '@user->id'
+#App\Entity\Article:
+#      article{1..5}:
+#          id: '<uuid()>'
+#          title: '<catchPhrase(1)>'
+#          content: '<de_DE:realText(2000)>'
+#          publishDate: '<dateTimeBetween("-6 months", "now")>'
+#          user: '@user->id'
 #App\Entity\User:
 #      user{1..10}:
 #          id: '<uuid()>'

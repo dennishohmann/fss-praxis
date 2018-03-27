@@ -133,6 +133,13 @@ class User extends BaseUser
         $this->klasse = $klasse;
     }
 
+
+    public function getAvatar()
+    {
+        return 'http://thecatapi.com/api/images/get?format=src&type=gif&r='.rand(100, 999);
+    }
+
+
     /**
      * Overridden so that username is now optional
      *

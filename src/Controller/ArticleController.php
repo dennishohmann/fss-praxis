@@ -108,7 +108,7 @@ EOF;
 
 
     /**
-     * @Route("/article/new", name="article_new")
+     * @Route("/article/neu", name="article_new")
      */
     public function new(Request $request)
     {
@@ -117,6 +117,7 @@ EOF;
         $article->setContent('Write a blog post');
         $article->setTitle('Title');
         $article->setPublishDate(new \DateTime('today'));
+        $article->setUser($this->getUser());
 
         $form = $this->createForm(ArticleType::class, $article);
         $form->handleRequest($request);
