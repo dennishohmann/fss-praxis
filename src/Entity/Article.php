@@ -2,7 +2,9 @@
 
 namespace App\Entity;
 
+use Ramsey\Uuid\Doctrine\UuidBinaryType;
 use Ramsey\Uuid\Uuid;
+use Ramsey\Uuid\UuidInterface;
 use Symfony\Component\Validator\Constraints as Assert;
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\Common\Collections\ArrayCollection;
@@ -19,7 +21,8 @@ class Article
      *
      * @ORM\Id
      * @ORM\Column(type="uuid_binary", unique=true)
-     * //  ORM\GeneratedValue(strategy="UUID") // @ORM\CustomIdGenerator(class="Ramsey\Uuid\Doctrine\UuidGenerator")
+     * @ORM\GeneratedValue(strategy="CUSTOM") //
+     * @ORM\CustomIdGenerator(class="Ramsey\Uuid\Doctrine\UuidGenerator")
      *
      */
     private $id;
@@ -43,7 +46,7 @@ class Article
     private $publishDate;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\User", inversedBy="articles")
+     * @ORM\ManyToOne(targetEntity="App\Application\Sonata\UserBundle\Entity\User", inversedBy="articles")
      * @ORM\JoinColumn(nullable=false)
      */
     private $user;
@@ -53,7 +56,7 @@ class Article
      */
     private $comments;
 
-    public function getId()
+    public function getId():UuidInterface
     {
         return $this->id;
     }
@@ -139,7 +142,7 @@ class Article
 
     public function __toString()
     {
-        return $this->getTitle();
+        return (string) $this->getTitle();
     }
 
 }

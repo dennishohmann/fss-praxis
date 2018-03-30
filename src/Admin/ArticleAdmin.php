@@ -8,17 +8,19 @@
 // src/Admin/CategoryAdmin.php
 namespace App\Admin;
 
+use App\Application\Sonata\UserBundle\Entity\User;
 use Sonata\AdminBundle\Admin\AbstractAdmin;
 use Sonata\AdminBundle\Datagrid\ListMapper;
 use Sonata\AdminBundle\Datagrid\DatagridMapper;
 use Sonata\AdminBundle\Form\FormMapper;
-use Sonata\AdminBundle\Form\Type\Filter\DateType;
 use Sonata\AdminBundle\Form\Type\ModelType;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
+use Symfony\Component\Form\Extension\Core\Type\DateTimeType;
 
 class ArticleAdmin extends AbstractAdmin
 {
+
     protected function configureFormFields(FormMapper $formMapper)
     {
         $formMapper
@@ -27,14 +29,14 @@ class ArticleAdmin extends AbstractAdmin
                 ->add('content', TextType::class)
             ->end()
             ->with('Data')
-                ->add('publishDate', DateType::class)
+                ->add('publishDate', DateTimeType::class)
 /*                ->add('user', ModelType::class, [
                     'class' => User::class,
                     'property' => 'name'
                 ])*/
                 ->add('user', EntityType::class, [
                     'class' => User::class,
-                    'choice_label' => 'name',
+                    'choice_label' => 'username',
                 ])
             ->end()
         ;
@@ -59,4 +61,6 @@ class ArticleAdmin extends AbstractAdmin
             ->add('publishDate')
             ->add('user');
     }
+
+
 }
