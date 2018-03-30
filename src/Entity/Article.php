@@ -2,7 +2,6 @@
 
 namespace App\Entity;
 
-use Ramsey\Uuid\Doctrine\UuidBinaryType;
 use Ramsey\Uuid\Uuid;
 use Ramsey\Uuid\UuidInterface;
 use Symfony\Component\Validator\Constraints as Assert;
@@ -46,7 +45,7 @@ class Article
     private $publishDate;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Application\Sonata\UserBundle\Entity\User", inversedBy="articles")
+     * @ORM\ManyToOne(targetEntity="App\Entity\User", inversedBy="articles")
      * @ORM\JoinColumn(nullable=false)
      */
     private $user;

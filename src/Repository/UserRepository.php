@@ -2,7 +2,7 @@
 
 namespace App\Repository;
 
-use App\Application\Sonata\UserBundle\Entity\User;
+use App\Entity\User;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Common\Persistence\ManagerRegistry;
 

@@ -5,7 +5,7 @@ sonata_block:
 sonata_user:
     security_acl: false
     class:                  # Entity Classes
-        user:               App\Application\Sonata\UserBundle\Entity\User
+        user:               App\Entity\User
         group:              App\Application\Sonata\UserBundle\Entity\Group
 
     admin:                  # Admin Classes
@@ -17,7 +17,7 @@ sonata_user:
         group:
             class:          Sonata\UserBundle\Admin\Entity\GroupAdmin
             controller:     SonataAdminBundle:CRUD
-            translation:    SonataUserBundleApp\Application\Sonata\UserBundle\Entity\Group
+            translation:    SonataUserBundle
 
     manager_type: orm
 sonata_admin:

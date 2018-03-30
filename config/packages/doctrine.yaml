@@ -32,5 +32,6 @@ doctrine:
                 prefix: 'App\Entity'
                 alias: App
             FOSUserBundle: ~
-            ApplicationSonataUserBundle: ~
+            ApplicationSonataUserBundle:
+                type: annotation
             SonataUserBundle: ~

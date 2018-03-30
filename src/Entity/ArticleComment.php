@@ -18,7 +18,7 @@ class ArticleComment
     private $id;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Application\Sonata\UserBundle\Entity\User", inversedBy="comments")
+     * @ORM\ManyToOne(targetEntity="App\Entity\User", inversedBy="comments")
      * @ORM\JoinColumn(nullable=false)
      */
     private $user;

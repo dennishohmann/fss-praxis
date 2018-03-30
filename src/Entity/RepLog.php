@@ -67,7 +67,7 @@ class RepLog
      *
      * @var User
      *
-     * @ORM\ManyToOne(targetEntity="App\Application\Sonata\UserBundle\Entity\User")
+     * @ORM\ManyToOne(targetEntity="App\Entity\User")
      * @ORM\JoinColumn(name="user_id", referencedColumnName="id", nullable=false)
      */
     private $user;
