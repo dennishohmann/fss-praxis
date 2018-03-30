@@ -1,0 +1,16 @@
+fos_user:
+    db_driver: orm # other valid values are 'mongodb' and 'couchdb'
+    firewall_name: main
+    user_class: App\Application\Sonata\UserBundle\Entity\User
+
+    from_email:
+        address: "hello@dennishohmann.de" #"%mailer_user%"
+        sender_name: "Dennis" #"%mailer_user%"
+    registration:
+        form:
+            type: App\Form\RegistrationType
+    group:
+        group_class:   App\Application\Sonata\UserBundle\Entity\Group
+        group_manager: sonata.user.orm.group_manager
+    service:
+        user_manager: sonata.user.orm.user_manager

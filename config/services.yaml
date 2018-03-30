@@ -34,22 +34,12 @@ services:
     app.security.login_form_authenticator:
         class: App\Security\LoginFormAuthenticator
         autowire: true
-    admin.article:
-        class: App\Admin\ArticleAdmin
-        arguments: [~, App\Entity\Article, ~]
-        tags:
-            - { name: sonata.admin, manager_type: orm, label: Artikel }
-        public: true
+#    admin.article:
+#        class: App\Admin\ArticleAdmin
+#        arguments: [~, App\Entity\Article, ~]
+#        tags:
+#            - { name: sonata.admin, manager_type: orm, label: Artikel }
+#        public: true
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
-fos_user:
-    db_driver: orm # other valid values are 'mongodb' and 'couchdb'
-    firewall_name: main
-    user_class: App\Entity\User
-    from_email:
-        address: "hello@dennishohmann.de" #"%mailer_user%"
-        sender_name: "Dennis" #"%mailer_user%"
-    registration:
-        form:
-            type: App\Form\RegistrationType
