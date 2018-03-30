@@ -13,6 +13,9 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use App\Service\MarkdownHelper;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\JsonResponse;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
+
 
 class ArticleController extends AbstractController
 {
@@ -150,5 +153,27 @@ EOF;
         return $this->render('article/article_new.html.twig', array(
             'form' => $form->createView(),
         ));
+    }
+
+    /**
+     * @Route("/article/show/{id}/comments", name="article_show_comments", options={"expose" = true})
+     * ///@Method("GET")
+     */
+    public function getCommentsAction(Article $article)
+    {
+        $comments = [];
+        foreach ($article->getComments() as $comment) {
+            $comments[] = [
+                'id' => $comment->getId(),
+                'username' => $comment->getUser()->getUsername(),
+                'avatarUri' => '/images/'.$comment->getUserAvatarFilename(),
+                'note' => $comment->getComment(),
+                'date' => $comment->getCreatedAt()->format('D d M Y')
+            ];
+        }
+        $data = [
+            'comments' => $comments
+        ];
+        return new JsonResponse($data);
     }
 }

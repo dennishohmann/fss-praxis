@@ -5,7 +5,7 @@ namespace App\Entity;
 use Ramsey\Uuid\Uuid;
 use Symfony\Component\Validator\Constraints as Assert;
 use Doctrine\ORM\Mapping as ORM;
-
+use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * Class Article
@@ -15,7 +15,7 @@ use Doctrine\ORM\Mapping as ORM;
 class Article
 {
     /**
-     * @var \Ramsey\Uuid
+     * @var \Ramsey\Uuid\UuidInterface
      *
      * @ORM\Id
      * @ORM\Column(type="uuid_binary", unique=true)
@@ -47,6 +47,11 @@ class Article
      * @ORM\JoinColumn(nullable=false)
      */
     private $user;
+
+    /**
+     * @ORM\OneToMany(targetEntity="App\Entity\ArticleComment", mappedBy="article")
+     */
+    private $comments;
 
     public function getId()
     {
@@ -104,13 +109,32 @@ class Article
     public function setUser($user): void
     {
         $this->user = $user;
+
     }
 
+    /**
+     * @return ArrayCollection|ArticleComment[]
+     */
+    public function getComments()
+    {
+        return $this->comments;
+    }
 
+    /**
+     * @return mixed $article
+     */
+    public function addCommment(ArticleComment $comment)
+    {
+        $this->comments[] = $comment;
+        $comment->setArticle($this);
+
+        return $this;
+    }
 
     public function __construct()
     {
         $this->id = Uuid::uuid4();
+        $this->comments = new ArrayCollection();
     }
 
     public function __toString()

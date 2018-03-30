@@ -25,6 +25,10 @@ class User extends BaseUser
     protected $articles;
 
     /**
+     * @ORM\OneToMany(targetEntity="App\Entity\ArticleComment", mappedBy="user")
+     */
+    protected $comments;
+    /**
      * @ORM\Column(type="string")
      *
      * @Assert\NotBlank(message="Please enter your name.", groups={"Registration", "Profile"})
@@ -74,8 +78,35 @@ class User extends BaseUser
      */
     public function addArticle(Article $article)
     {
-        $this->articles[] = $article;
+        $this->articles[] = $articAle;
         $article->setUser($this);
+
+        return $this;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getComments()
+    {
+        return $this->comments;
+    }
+
+    /**
+     * @param mixed $comments
+     */
+    public function setComments($comments)
+    {
+        $this->comments = $comments;
+    }
+
+    /**
+     * @return mixed $article
+     */
+    public function addComment(ArticleComment $comment)
+    {
+        $this->comments[] = $comment;
+        $comment->setUser($this);
 
         return $this;
     }
@@ -156,6 +187,12 @@ class User extends BaseUser
     {
         parent::__construct();
         $this->articles = new ArrayCollection();
+        $this->comments = new ArrayCollection();
+    }
+
+    public function __toString()
+    {
+        return $this->getUsername();
     }
 }
 

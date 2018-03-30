@@ -1,6 +1,11 @@
 'use strict';
 
 import $ from 'jquery';
+global.$ = global.jQuery = $;
+import Routing from './components/routing';
+import NoteSection from './components/notes.react';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 $(document).ready(function() {
     $('.js-like-article').on('click', function(e) {
@@ -17,3 +22,10 @@ $(document).ready(function() {
         })
     });
 });
+var articleid = $('.js-article-id').data('id');
+var notesUrl = Routing.generate('article_show_comments', {id: articleid});
+
+ReactDOM.render(
+<NoteSection url={notesUrl} />,
+document.getElementById('js-notes-wrapper')
+);
