@@ -20,3 +20,5 @@ easy_admin:
         class: App\Entity\Article
       User:
         class: App\Entity\User
+      ArticleComment:
+        class: App\Entity\ArticleComment
