@@ -88,7 +88,7 @@ EOF;
         $em = $this->getDoctrine()->getManager();
 
         $articles = $em->getRepository('App:Article')
-            ->findAll();
+            ->findAllAuthorName();
 
         return $this->render('article/article_list.html.twig', [
             'articles' => $articles,

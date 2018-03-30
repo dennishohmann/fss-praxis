@@ -10,7 +10,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * Class Article
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="App\Repository\ArticleRepository")
  * @ORM\Table(name="article")
  */
 class Article
@@ -19,9 +19,8 @@ class Article
      * @var \Ramsey\Uuid\UuidInterface
      *
      * @ORM\Id
-     * @ORM\Column(type="uuid_binary", unique=true)
-     * @ORM\GeneratedValue(strategy="CUSTOM") //
-     * @ORM\CustomIdGenerator(class="Ramsey\Uuid\Doctrine\UuidGenerator")
+     * @ORM\GeneratedValue(strategy="AUTO")
+     * @ORM\Column(type="integer")
      *
      */
     private $id;
@@ -55,7 +54,7 @@ class Article
      */
     private $comments;
 
-    public function getId():UuidInterface
+    public function getId()
     {
         return $this->id;
     }
@@ -63,7 +62,7 @@ class Article
     /**
      * @param uuid $id
      */
-    public function setId($id): void
+    public function setId($id)
     {
         $this->id = $id;
     }
@@ -135,7 +134,6 @@ class Article
 
     public function __construct()
     {
-        $this->id = Uuid::uuid4();
         $this->comments = new ArrayCollection();
     }
 

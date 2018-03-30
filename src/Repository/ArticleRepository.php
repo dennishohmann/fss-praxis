@@ -17,4 +17,14 @@ class ArticleRepository extends EntityRepository
             ->getQuery()
             ->execute();
     }
+
+    public function findAllAuthorName()
+    {
+        return $this->createQueryBuilder('article')
+            ->select('article.id', 'article.title', 'article.publishDate', 'user.lastname', 'user.firstname')
+            ->leftJoin('article.user', 'user')
+            ->orderBy('article.publishDate', 'DESC')
+            ->getQuery()
+            ->execute();
+    }
 }

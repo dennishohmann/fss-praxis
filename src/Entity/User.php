@@ -149,7 +149,7 @@ class User extends SonataBase
     /**
      * @return string
      */
-    public function getEmail(): string
+    public function getEmail()
     {
         return $this->email;
     }
