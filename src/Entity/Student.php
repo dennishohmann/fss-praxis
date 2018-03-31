@@ -102,14 +102,8 @@ class Student
         $this->teachers[] = $teacher;
     }
 
-    public function __construct(string $name, string $vname, Klasse $klasse)
+    public function __construct()
     {
-
-        $this->name = $name;
-        $this->vname = $vname;
-        $this->klasse = $klasse;
         $this->teachers = new ArrayCollection();
-
-        $this->klasse->addStudent($this);
     }
 }

@@ -43,7 +43,7 @@ class User extends SonataBase
 
     /**
      * @ORM\Column(type="string", nullable=true)
-     * @ORM\ManyToOne(targetEntity="App\Entity\Klasse")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Klasse", inversedBy="teacher")
      */
     protected $klasse;
 

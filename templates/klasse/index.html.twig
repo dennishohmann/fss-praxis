@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Klasse index{% endblock %}
+
+{% block body %}
+    <h1>Klasse index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Jahrgang</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for klasse in klasses %}
+            <tr>
+                <td>{{ klasse.id }}</td>
+                <td>{{ klasse.name }}</td>
+                <td>{{ klasse.jahrgang }}</td>
+                <td>
+                    <a href="{{ path('klasse_show', {'id': klasse.id}) }}">show</a>
+                    <a href="{{ path('klasse_edit', {'id': klasse.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="4">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('klasse_new') }}">Create new</a>
+{% endblock %}

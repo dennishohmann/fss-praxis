@@ -86,11 +86,6 @@ class Klasse
         return $this->students;
     }
 
-    public function __toString()
-    {
-        return (string) $this->getStudents();
-    }
-
     public function addStudent(Student $student)
     {
         $this->students->add($student);
@@ -112,23 +107,21 @@ class Klasse
     /**
      * @param mixed $teacher
      */
-    public function setTeacher(Teacher $teacher): void
+    public function setTeacher(User $user): void
     {
-        $this->teacher = $teacher;
+        $this->teacher = $user;
     }
 
-    public function __construct(string $name, string $jahrgang, string $teacher) {
+    public function __construct() {
 
-        $this->name = $name;
-        $this->jahrgang = $jahrgang;
-        $this->teacher = $teacher;
         $this->students = new ArrayCollection();
     }
 
-/*    public function __toString(){
+    public function __toString()
+    {
         // to show the name of the Category in the select
-        return $this->teacher;
+        return (string) $this->getName();
         // to show the id of the Category in the select
         // return $this->id;
-    }*/
+    }
 }
