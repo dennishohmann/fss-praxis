@@ -21,7 +21,7 @@ class ArticleRepository extends EntityRepository
     public function findAllAuthorName()
     {
         return $this->createQueryBuilder('article')
-            ->select('article.id', 'article.title', 'article.publishDate', 'user.lastname', 'user.firstname')
+            ->select('article.id', 'article.title', 'article.slug', 'article.publishDate', 'user.lastname', 'user.firstname')
             ->leftJoin('article.user', 'user')
             ->orderBy('article.publishDate', 'DESC')
             ->getQuery()
@@ -31,7 +31,7 @@ class ArticleRepository extends EntityRepository
     public function findOneWithAuthor($id)
     {
         return $this->createQueryBuilder('article')
-            ->select('article.id', 'article.title', 'article.content', 'user.firstname', 'user.lastname')
+            ->select('article.id', 'article.title', 'article.content', 'article.slug', 'user.firstname', 'user.lastname')
             ->leftJoin('article.user', 'user')
             ->andWhere('article.id = :article')
             ->setParameter('article', $id)

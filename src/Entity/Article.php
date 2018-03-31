@@ -2,11 +2,11 @@
 
 namespace App\Entity;
 
-use Ramsey\Uuid\Uuid;
-use Ramsey\Uuid\UuidInterface;
+
 use Symfony\Component\Validator\Constraints as Assert;
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\Common\Collections\ArrayCollection;
+use Gedmo\Mapping\Annotation as Gedmo;
 
 /**
  * Class Article
@@ -16,7 +16,6 @@ use Doctrine\Common\Collections\ArrayCollection;
 class Article
 {
     /**
-     * @var \Ramsey\Uuid\UuidInterface
      *
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
@@ -42,6 +41,12 @@ class Article
      * @Assert\Type("\DateTime")
      */
     private $publishDate;
+
+    /**
+     * @Gedmo\Slug(fields={"title", "publishDate"})
+     * @ORM\Column(length=128, unique=true)
+     */
+    private $slug;
 
     /**
      * @ORM\ManyToOne(targetEntity="App\Entity\User", inversedBy="articles")
@@ -96,6 +101,21 @@ class Article
     $this->publishDate = $publishDate;
     }
 
+    public function getSlug()
+    {
+        return $this->slug;
+    }
+
+    /**
+     * @param mixed $slug
+     */
+    public function setSlug($slug): void
+    {
+        $this->slug = $slug;
+    }
+
+
+
     /**
      * @return mixed
      */
@@ -135,6 +155,7 @@ class Article
     public function __construct()
     {
         $this->comments = new ArrayCollection();
+        $this->publishDate = new \DateTime;
     }
 
     public function __toString()

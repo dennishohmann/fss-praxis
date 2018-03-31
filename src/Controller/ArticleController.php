@@ -34,7 +34,7 @@ class ArticleController extends AbstractController
      */
     public function news($slug, MarkdownHelper $markdownHelper)
     {
-        $comments = [
+        $commentsa = [
             'I ate a normal rock once. It did NOT taste like bacon!',
             'Woohoo! I\'m going on an all-asteroid diet!',
             'I like bacon too! Buy some from my site! bakinsomebacon.com',
@@ -59,13 +59,22 @@ EOF;
         
         
          $articleContent = $markdownHelper->parse($articleContent);
-        
-        return $this->render('article/index.html.twig', [
+        $em = $this->getDoctrine()->getManager();
+
+        $article = $em->getRepository('App:Article')->findOneBy(['slug' => $slug]);
+        $author = $em->getRepository('App:User')->find($article);
+
+        return $this->render('article/article_show.html.twig', [
+            'article' => $article,
+            'author' => $author
+        ]);
+
+/*        return $this->render('article/index.html.twig', [
             'title' => ucwords(str_replace('-', ' ', $slug)),
             'slug' => $slug,
             'comments' => $comments,
             'articleContent' => $articleContent,
-        ]);
+        ]);*/
     }
     
     
@@ -139,7 +148,7 @@ EOF;
             $entityManager = $this->getDoctrine()->getManager();
             $entityManager->persist($article);
             $entityManager->flush();
-
+            $this->addFlash('success', '<h2>Artikel erfolgreich angelegt</h2>');
             return $this->redirectToRoute('article_list', array(
                 'message' => 'Alles eingetragen',
             ));
