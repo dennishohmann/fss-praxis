@@ -43,8 +43,15 @@ class User extends SonataBase
 
     /**
      * @ORM\Column(type="string", nullable=true)
+     * @ORM\ManyToOne(targetEntity="App\Entity\Klasse")
      */
     protected $klasse;
+
+    /**
+     * Many Groups have Many Users.
+     * @ORM\ManyToMany(targetEntity="App\Entity\Student", mappedBy="teachers")
+     */
+    private $students;
 
     public function getId()
     {
@@ -154,17 +161,30 @@ class User extends SonataBase
         return $this->email;
     }
 
+    public function addStudent(Student $student)
+    {
+        $student->addTeacher($this); // synchronously updating inverse side
+        $this->students[] = $student;
+    }
 
+    /**
+     * @return mixed
+     */
+    public function getStudents()
+    {
+        return $this->students;
+    }
 
     public function __construct()
     {
         parent::__construct();
         $this->articles = new ArrayCollection();
         $this->comments = new ArrayCollection();
+        $this->teachers = new ArrayCollection();
     }
 
     public function __toString()
     {
-        return $this->getUsername();
+        return (string) $this->getUsername();
     }
 }

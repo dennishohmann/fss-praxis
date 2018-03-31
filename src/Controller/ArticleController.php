@@ -3,7 +3,9 @@
 namespace App\Controller;
 
 use App\Entity\Article;
+use App\Entity\ArticleComment;
 use App\Form\ArticleType;
+use App\Form\CommentType;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\Form\Extension\Core\Type\DateType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
@@ -103,9 +105,11 @@ EOF;
         $em = $this->getDoctrine()->getManager();
 
         $article = $em->getRepository('App:Article')->find($id);
-        dump($article);
+        $author = $em->getRepository('App:User')->find($article);
+
         return $this->render('article/article_show.html.twig', [
             'article' => $article,
+            'author' => $author
         ]);
     }
 
@@ -175,5 +179,51 @@ EOF;
             'comments' => $comments
         ];
         return new JsonResponse($data);
+    }
+
+ /**
+ * @Route("/article/show/addcomment/{article}", name="article_add_comment", options={"expose" = true})
+ * ///@Method("GET")
+ */
+    public function addCommentAction(Article $article)
+    {
+        // creates a task and gives it some dummy data for this example
+        $articleComment = new ArticleComment();
+        $articleComment->setUser($this->getUser());
+        $articleComment->setComment('Comment');
+        $articleComment->setCreatedAt(new \DateTime('today'));
+        $articleComment->setArticle($this->getArticle());
+
+        $form = $this->createForm(CommentType::class, $article);
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            // $form->getData() holds the submitted values
+            // but, the original `$task` variable has also been updated
+            $articleComment = $form->getData();
+
+            // ... perform some action, such as saving the task to the database
+            // for example, if Task is a Doctrine entity, save it!
+            $entityManager = $this->getDoctrine()->getManager();
+            $entityManager->persist($article);
+            $entityManager->flush();
+
+            return $this->redirectToRoute('article_list', array(
+                'message' => 'Alles eingetragen',
+            ));
+            //TODO: Message erscheint als GET im Aufruf, nicht in TWIG
+        }
+
+        /*
+         * Be aware that the createView() method should be called
+         * after handleRequest() is called. Otherwise,
+         * changes done in the *_SUBMIT events aren't applied to the view
+         * (like validation errors).
+         *
+         * */
+
+        return $this->render('article/article_new.html.twig', array(
+            'form' => $form->createView(),
+        ));
     }
 }

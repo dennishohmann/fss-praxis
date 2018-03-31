@@ -54,7 +54,7 @@
                             <div class="col-sm-12">
                                 <img class="comment-img rounded-circle" src="{{ asset('images/astronaut-profile.png') }}">
                                 <div class="comment-container d-inline-block pl-3 align-top">
-                                    <span class="commenter-name">Amy Oort</span>
+                                    <span class="commenter-name">{{ dump (app) }}</span>
                                     <div class="form-group">
                                         <textarea class="form-control comment-form" id="articleText" rows="1"></textarea>
                                     </div>
@@ -83,7 +83,7 @@
         </div>
     </div>
 </div>
-
+{{ dump () }}
     <div class="js-article-id" data-id="{{ article.id }}">
         <!-- ... -->
     </div>

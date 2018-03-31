@@ -27,4 +27,16 @@ class ArticleRepository extends EntityRepository
             ->getQuery()
             ->execute();
     }
+
+    public function findOneWithAuthor($id)
+    {
+        return $this->createQueryBuilder('article')
+            ->select('article.id', 'article.title', 'article.content', 'user.firstname', 'user.lastname')
+            ->leftJoin('article.user', 'user')
+            ->andWhere('article.id = :article')
+            ->setParameter('article', $id)
+            ->getQuery()
+            ->execute();
+    }
+
 }

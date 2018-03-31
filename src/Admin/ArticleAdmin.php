@@ -8,7 +8,7 @@
 // src/Admin/CategoryAdmin.php
 namespace App\Admin;
 
-use App\Application\Sonata\UserBundle\Entity\User;
+use App\Entity\User;
 use Sonata\AdminBundle\Admin\AbstractAdmin;
 use Sonata\AdminBundle\Datagrid\ListMapper;
 use Sonata\AdminBundle\Datagrid\DatagridMapper;

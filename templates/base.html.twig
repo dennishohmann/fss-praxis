@@ -43,7 +43,7 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             {% if is_granted('ROLE_USER') %}
                             <a class="dropdown-item" href="{{ path('fos_user_profile_edit') }}">Profile</a>
-                            <a class="dropdown-item" href="#">Create Post</a>
+                            <a class="dropdown-item" href="{{ path('article_new') }}">Create Post</a>
                             <a class="dropdown-item" href="{{ path('fos_user_security_logout') }}">{{ 'layout.logout'|trans({}, 'FOSUserBundle') }}</a>
                             {% else %}
                             <a class="dropdown-item" href="{{ path('fos_user_security_login') }}">{{ 'layout.login'|trans({}, 'FOSUserBundle') }}</a>
