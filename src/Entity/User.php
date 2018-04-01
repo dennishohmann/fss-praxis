@@ -42,10 +42,9 @@ class User extends SonataBase
 
 
     /**
-     * @ORM\Column(type="string", nullable=true)
-     * @ORM\ManyToOne(targetEntity="App\Entity\Klasse", inversedBy="teacher")
+     * @ORM\OneToMany(targetEntity="App\Entity\Klasse", mappedBy="teacher")
      */
-    protected $klasse;
+    protected $klassen;
 
     /**
      * Many Groups have Many Users.
@@ -121,17 +120,17 @@ class User extends SonataBase
     /**
      * @return mixed
      */
-    public function getKlasse()
+    public function getKlassen()
     {
-        return $this->klasse;
+        return $this->klassen;
     }
 
     /**
-     * @param mixed $klasse
+     * @param mixed $klassen
      */
-    public function setKlasse($klasse): void
+    public function addKlasse(Klasse $klasse): void
     {
-        $this->klasse = $klasse;
+        $this->klassen[] = $klasse;
     }
 
 
@@ -181,6 +180,7 @@ class User extends SonataBase
         $this->articles = new ArrayCollection();
         $this->comments = new ArrayCollection();
         $this->teachers = new ArrayCollection();
+        $this->klassen = new  ArrayCollection();
     }
 
     public function __toString()

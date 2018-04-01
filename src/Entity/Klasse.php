@@ -34,7 +34,8 @@ class Klasse
     private $students;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\User", inversedBy="klasse")
+     * @ORM\ManyToOne(targetEntity="App\Entity\User", inversedBy="klassen")
+     * @ORM\JoinColumn(name="user_id", referencedColumnName="id")
      */
     private $teacher;
 

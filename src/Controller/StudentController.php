@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Entity\Student;
+use App\Entity\User;
 use App\Form\StudentType;
 use App\Repository\StudentRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -17,6 +18,16 @@ class StudentController extends Controller
 {
     /**
      * @Route("/", name="student_index", methods="GET")
+     */
+    public function indexByTeacher(StudentRepository $studentRepository): Response
+    {
+        $me = $this->container->get('security.token_storage')->getToken()->getUser();
+        return $this->render('student/index.html.twig', [
+            'students' => $studentRepository->findByTeacher($me)]);
+    }
+
+    /**
+     * @Route("/list", name="student_list_all", methods="GET")
      */
     public function index(StudentRepository $studentRepository): Response
     {
