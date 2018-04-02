@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Entity\Student;
 use App\Form\StudentType;
 use App\Repository\StudentRepository;
+use Knp\Bundle\SnappyBundle\Snappy\Response\PdfResponse;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -98,5 +99,34 @@ class StudentController extends Controller
         }
 
         return $this->redirectToRoute('student_index');
+    }
+
+    /**
+     * @Route("/print/list", name="student_list_print")
+     */
+    public function printListByTeacher(Request $request, StudentRepository $studentRepository): Response
+    {
+        $snappy = $this->get('knp_snappy.pdf');
+        $me = $this->container->get('security.token_storage')->getToken()->getUser();
+        $filename = 'Schuelerliste';
+        /*$html for direct Raponst (Problem with embedded Pictures and css*/
+        $html =   $this->render('student/index.html.twig', [
+            'students' => $studentRepository->findByTeacher($me)]);
+
+        /*Return File-View in Browser*/
+
+        return new Response($snappy->getOutputFromHtml($html),200, array(
+                'Content-Type'          => 'application/pdf',
+                'Content-Disposition'   => 'inline; filename="'.$filename.'.pdf"',
+            )
+        );
+/*
+ * Return file Download
+ *         return new PdfResponse(
+            $snappy->getOutputFromHtml($html), $filename
+        );*/
+//        $me = $this->container->get('security.token_storage')->getToken()->getUser();
+//        return $this->render('student/index.html.twig', [
+//            'students' => $studentRepository->findByTeacher($me)]);
     }
 }

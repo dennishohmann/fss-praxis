@@ -131,6 +131,15 @@
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
     },
+    "jolicode/gif-exception-bundle": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "b3348dadb52ed0390e71ae1323caff9e86bbe7f1"
+        }
+    },
     "knplabs/knp-markdown-bundle": {
         "version": "1.7.0"
     },

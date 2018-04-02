@@ -1,7 +1,7 @@
 knp_snappy:
     pdf:
         enabled:    true
-        binary:     '%env(WKHTMLTOPDF_PATH)%'
+        binary:     '/usr/bin/xvfb-run wkhtmltopdf' # %env(WKHTMLTOPDF_PATH)%'
         options:    []
     image:
         enabled:    true
