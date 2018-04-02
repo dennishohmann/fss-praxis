@@ -3,7 +3,6 @@
 namespace App\Controller;
 
 use App\Entity\Student;
-use App\Entity\User;
 use App\Form\StudentType;
 use App\Repository\StudentRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -28,6 +27,8 @@ class StudentController extends Controller
 
     /**
      * @Route("/list", name="student_list_all", methods="GET")
+     *
+     * ///TODO Zugriff nur für Admins gestatten ///
      */
     public function index(StudentRepository $studentRepository): Response
     {
